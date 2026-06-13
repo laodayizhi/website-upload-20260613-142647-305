@@ -1,0 +1,3803 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人气剧集 - 国产热门电影</title>
+  <meta name="description" content="人气剧集频道：集中展示热播剧集与长篇故事内容，适合连续追看与深度观影。支持搜索筛选与高清在线播放。">
+  <meta name="keywords" content="国产电影,热门电影,免费电影,在线观看,无广告,高清电影,国产大片,最新电影,经典电影,免费观影,人气剧集,在线观看,高清电影">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="./index.html" aria-label="国产热门电影">
+      <span class="logo-mark">▶</span>
+      <span>国产热门电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link active" href="./categories.html">分类</a>
+      <a class="nav-link" href="./movies.html">片库</a>
+      <a class="nav-link" href="./rankings.html">排行榜</a>
+    </nav>
+    <button class="mobile-menu-button" type="button" aria-label="打开导航" data-menu-button>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+    <a class="mobile-nav-link" href="./index.html">首页</a>
+    <a class="mobile-nav-link active" href="./categories.html">分类</a>
+    <a class="mobile-nav-link" href="./movies.html">片库</a>
+    <a class="mobile-nav-link" href="./rankings.html">排行榜</a>
+  </nav>
+</header>
+<main>
+<section class="page-hero compact-hero category-page-hero">
+  <span class="eyebrow">人气剧集</span>
+  <h1>人气剧集</h1>
+  <p>集中展示热播剧集与长篇故事内容，适合连续追看与深度观影。</p>
+  <div class="hero-actions small-actions">
+    <a class="btn-primary" href="./movies.html">浏览片库</a>
+    <a class="btn-secondary" href="./rankings.html">热门排行</a>
+  </div>
+</section>
+<section class="content-section">
+  <section class="filter-panel" data-local-filter>
+  <div class="filter-head">
+    <h2>人气剧集筛选</h2>
+    <p>按片名、年份、地区、类型或标签查找喜欢的内容。</p>
+  </div>
+  <div class="filter-controls">
+    <input type="search" name="q" placeholder="搜索片名、类型、标签" aria-label="搜索片名" data-filter-query>
+    <select aria-label="类型筛选" data-filter-type>
+      <option value="">全部类型</option>
+      <option value="Movie">Movie</option>
+        <option value="OVA">OVA</option>
+        <option value="TV series">TV series</option>
+        <option value="TV动画">TV动画</option>
+        <option value="剧集">剧集</option>
+        <option value="剧集 / 动画">剧集 / 动画</option>
+        <option value="剧集 / 短片集">剧集 / 短片集</option>
+        <option value="剧集 / 纪录片">剧集 / 纪录片</option>
+        <option value="剧集 / 限定剧">剧集 / 限定剧</option>
+        <option value="剧集 电视剧">剧集 电视剧</option>
+        <option value="剧集/动画">剧集/动画</option>
+        <option value="剧集，传记">剧集，传记</option>
+        <option value="动态漫画">动态漫画</option>
+        <option value="动漫">动漫</option>
+        <option value="动漫电影">动漫电影</option>
+        <option value="动画">动画</option>
+        <option value="动画 / 剧集">动画 / 剧集</option>
+        <option value="动画 / 短片">动画 / 短片</option>
+        <option value="动画剧集">动画剧集</option>
+        <option value="动画片">动画片</option>
+        <option value="动画电影">动画电影</option>
+        <option value="动画短片">动画短片</option>
+        <option value="喜剧电影">喜剧电影</option>
+        <option value="演唱会电影">演唱会电影</option>
+        <option value="特别篇">特别篇</option>
+        <option value="电影">电影</option>
+        <option value="电影 (网络)">电影 (网络)</option>
+        <option value="电影 / 动画">电影 / 动画</option>
+        <option value="电影 / 特别篇">电影 / 特别篇</option>
+        <option value="电影 / 纪录">电影 / 纪录</option>
+        <option value="电影 悬疑, 恐怖">电影 悬疑, 恐怖</option>
+        <option value="电影, 动画">电影, 动画</option>
+        <option value="电影/动画">电影/动画</option>
+        <option value="电影/史前冒险">电影/史前冒险</option>
+        <option value="电影/特别节目">电影/特别节目</option>
+        <option value="电影/纪录">电影/纪录</option>
+        <option value="电影（动画短片）">电影（动画短片）</option>
+        <option value="电影（网络）">电影（网络）</option>
+        <option value="电视剧">电视剧</option>
+        <option value="电视剧 (10集)">电视剧 (10集)</option>
+        <option value="电视剧 (30集)">电视剧 (30集)</option>
+        <option value="电视剧 (剧集)">电视剧 (剧集)</option>
+        <option value="电视剧 (迷你剧)">电视剧 (迷你剧)</option>
+        <option value="电视剧 / 动画">电视剧 / 动画</option>
+        <option value="电视剧 / 悬疑">电视剧 / 悬疑</option>
+        <option value="电视剧 / 网剧">电视剧 / 网剧</option>
+        <option value="电视剧 / 网络剧">电视剧 / 网络剧</option>
+        <option value="电视剧 / 迷你剧">电视剧 / 迷你剧</option>
+        <option value="电视剧(迷你剧)">电视剧(迷你剧)</option>
+        <option value="电视剧集">电视剧集</option>
+        <option value="电视剧（特别篇）">电视剧（特别篇）</option>
+        <option value="电视剧（电影版）">电视剧（电影版）</option>
+        <option value="番剧">番剧</option>
+        <option value="短片">短片</option>
+        <option value="纪录片">纪录片</option>
+        <option value="综艺">综艺</option>
+        <option value="综艺 / 专场">综艺 / 专场</option>
+        <option value="综艺 / 电影">综艺 / 电影</option>
+        <option value="综艺 / 真人秀">综艺 / 真人秀</option>
+        <option value="综艺 / 纪录片">综艺 / 纪录片</option>
+        <option value="综艺/剧集">综艺/剧集</option>
+        <option value="综艺/晚会">综艺/晚会</option>
+        <option value="综艺/特别节目">综艺/特别节目</option>
+        <option value="综艺特别篇">综艺特别篇</option>
+        <option value="综艺（单口喜剧）">综艺（单口喜剧）</option>
+        <option value="网剧">网剧</option>
+        <option value="网络剧">网络剧</option>
+        <option value="网络剧 / 电视剧">网络剧 / 电视剧</option>
+        <option value="网络动画">网络动画</option>
+        <option value="网络电影">网络电影</option>
+    </select>
+    <select aria-label="年份筛选" data-filter-year>
+      <option value="">全部年份</option>
+      <option value="2030">2030</option>
+        <option value="2029">2029</option>
+        <option value="2028">2028</option>
+        <option value="2027">2027</option>
+        <option value="2026">2026</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+    </select>
+    <select aria-label="地区筛选" data-filter-region>
+      <option value="">全部地区</option>
+      <option value="中国">中国</option>
+        <option value="中国内地">中国内地</option>
+        <option value="中国内地 / 马来西亚">中国内地 / 马来西亚</option>
+        <option value="中国台湾">中国台湾</option>
+        <option value="中国台湾/美国">中国台湾/美国</option>
+        <option value="中国大陆">中国大陆</option>
+        <option value="中国大陆 (少数民族题材)">中国大陆 (少数民族题材)</option>
+        <option value="中国大陆 (配音版)">中国大陆 (配音版)</option>
+        <option value="中国大陆 / 缅甸">中国大陆 / 缅甸</option>
+        <option value="中国大陆 / 韩国">中国大陆 / 韩国</option>
+        <option value="中国大陆 / 香港">中国大陆 / 香港</option>
+        <option value="中国澳门">中国澳门</option>
+        <option value="中国香港">中国香港</option>
+        <option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option>
+        <option value="中国香港 / 马来西亚">中国香港 / 马来西亚</option>
+        <option value="中国香港/法国">中国香港/法国</option>
+        <option value="中国香港、泰国合拍">中国香港、泰国合拍</option>
+        <option value="丹麦">丹麦</option>
+        <option value="乌克兰 / 土耳其">乌克兰 / 土耳其</option>
+        <option value="伊朗">伊朗</option>
+        <option value="俄罗斯">俄罗斯</option>
+        <option value="俄罗斯 / 美国">俄罗斯 / 美国</option>
+        <option value="克罗地亚">克罗地亚</option>
+        <option value="冰岛">冰岛</option>
+    </select>
+  </div>
+  <p class="filter-empty" data-filter-empty>没有匹配的影片。</p>
+</section>
+  <div class="movie-grid library-grid" data-card-grid>
+    <article class="movie-card" data-card data-title="钟馗捉妖记" data-region="中国大陆" data-type="电视剧" data-year="2018" data-tags="捉妖 神仙 降魔 搞笑 特效 奇幻 喜剧 古装" data-search="钟馗捉妖记 中国大陆 电视剧 2018 奇幻，喜剧，古装 捉妖，神仙，降魔，搞笑，特效 钟馗因为酗酒被贬下凡，法力全失，只能带着一个废柴道士，在现代都市里捉妖还债。">
+  <a class="poster-link" href="./movie-1.html" aria-label="观看钟馗捉妖记">
+    <img src="./1.jpg" alt="钟馗捉妖记" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1.html">钟馗捉妖记</a>
+    <p class="movie-meta">2018 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">钟馗因为酗酒被贬下凡，法力全失，只能带着一个废柴道士，在现代都市里捉妖还债。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">古装</span>
+          <span class="chip">捉妖</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="赤裸朱丽叶" data-region="英国" data-type="电影" data-year="2022" data-tags="裸体主义 身份错位 中年觉醒 爱情 剧情" data-search="赤裸朱丽叶 英国 电影 2022 爱情, 剧情 裸体主义, 身份错位, 中年觉醒 保守的女教师误入天体海滩，却在这里遇到了自称“朱丽叶”且与她长得一模一样的女人。">
+  <a class="poster-link" href="./movie-5.html" aria-label="观看赤裸朱丽叶">
+    <img src="./5.jpg" alt="赤裸朱丽叶" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-5.html">赤裸朱丽叶</a>
+    <p class="movie-meta">2022 · 英国 · 电影</p>
+    <p class="movie-one-line">保守的女教师误入天体海滩，却在这里遇到了自称“朱丽叶”且与她长得一模一样的女人。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">剧情</span>
+          <span class="chip">裸体主义</span>
+          <span class="chip">身份错位</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="吸血鬼猎人巴菲第五季" data-region="美国" data-type="剧集" data-year="2024" data-tags="吸血鬼 重启 女英雄 超自然 成长 奇幻 动作 恐怖" data-search="吸血鬼猎人巴菲第五季 美国 剧集 2024 奇幻，动作，恐怖 吸血鬼，重启，女英雄，超自然，成长 重启版第五季，巴菲发现杀死她的不是某个恶魔，而是“猎人的宿命”本身——每一代猎人都活不过25岁。">
+  <a class="poster-link" href="./movie-8.html" aria-label="观看吸血鬼猎人巴菲第五季">
+    <img src="./8.jpg" alt="吸血鬼猎人巴菲第五季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-8.html">吸血鬼猎人巴菲第五季</a>
+    <p class="movie-meta">2024 · 美国 · 剧集</p>
+    <p class="movie-one-line">重启版第五季，巴菲发现杀死她的不是某个恶魔，而是“猎人的宿命”本身——每一代猎人都活不过25岁。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">动作</span>
+          <span class="chip">恐怖</span>
+          <span class="chip">吸血鬼</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="老广的味道第五季" data-region="中国大陆" data-type="剧集 / 纪录片" data-year="2024" data-tags="粤菜 广东 地域美食 风土人情 食材 纪录片 美食" data-search="老广的味道第五季 中国大陆 剧集 / 纪录片 2024 纪录片 / 美食 粤菜，广东，地域美食，风土人情，食材 深入岭南秘境，探寻食材本味，这季将镜头对准即将消失的十道古法粤菜。">
+  <a class="poster-link" href="./movie-19.html" aria-label="观看老广的味道第五季">
+    <img src="./19.jpg" alt="老广的味道第五季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-19.html">老广的味道第五季</a>
+    <p class="movie-meta">2024 · 中国大陆 · 剧集 / 纪录片</p>
+    <p class="movie-one-line">深入岭南秘境，探寻食材本味，这季将镜头对准即将消失的十道古法粤菜。</p>
+    <div class="movie-chips">
+      <span class="chip">纪录片</span>
+          <span class="chip">美食</span>
+          <span class="chip">粤菜</span>
+          <span class="chip">广东</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="歌颂爱情" data-region="法国 / 意大利" data-type="电影" data-year="2026" data-tags="巴黎 歌剧 中年爱情 文艺片 爱情 剧情 音乐" data-search="歌颂爱情 法国 / 意大利 电影 2026 爱情, 剧情, 音乐 巴黎, 歌剧, 中年爱情, 文艺片 巴黎歌剧院的女中音与一位沉默的园艺师，因为一棵枯死的玫瑰树，开启了迟来三十年的通信。">
+  <a class="poster-link" href="./movie-38.html" aria-label="观看歌颂爱情">
+    <img src="./38.jpg" alt="歌颂爱情" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-38.html">歌颂爱情</a>
+    <p class="movie-meta">2026 · 法国 / 意大利 · 电影</p>
+    <p class="movie-one-line">巴黎歌剧院的女中音与一位沉默的园艺师，因为一棵枯死的玫瑰树，开启了迟来三十年的通信。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">剧情</span>
+          <span class="chip">音乐</span>
+          <span class="chip">巴黎</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="万千星辉颁奖典礼2022" data-region="中国香港" data-type="综艺" data-year="2022" data-tags="TVB 港剧 视帝视后 情怀杀 年度盛典 颁奖礼 晚会" data-search="万千星辉颁奖典礼2022 中国香港 综艺 2022 颁奖礼、晚会 TVB、港剧、视帝视后、情怀杀、年度盛典 TVB 年度盛会，陈山聪、江美仪夺得视帝视后，全场致敬已故老戏骨，场面催泪。">
+  <a class="poster-link" href="./movie-41.html" aria-label="观看万千星辉颁奖典礼2022">
+    <img src="./41.jpg" alt="万千星辉颁奖典礼2022" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-41.html">万千星辉颁奖典礼2022</a>
+    <p class="movie-meta">2022 · 中国香港 · 综艺</p>
+    <p class="movie-one-line">TVB 年度盛会，陈山聪、江美仪夺得视帝视后，全场致敬已故老戏骨，场面催泪。</p>
+    <div class="movie-chips">
+      <span class="chip">颁奖礼</span>
+          <span class="chip">晚会</span>
+          <span class="chip">TVB</span>
+          <span class="chip">港剧</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="往十里" data-region="韩国" data-type="电影" data-year="2026" data-tags="城乡 母子 步行 治愈 剧情 家庭 奇幻" data-search="往十里 韩国 电影 2026 剧情 / 家庭 / 奇幻 城乡, 母子, 步行, 治愈 一个在城市长大的男孩被送回乡下奶奶家，奶奶说：“你走到十里外那个车站，我就告诉你爸爸在哪。”">
+  <a class="poster-link" href="./movie-54.html" aria-label="观看往十里">
+    <img src="./54.jpg" alt="往十里" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-54.html">往十里</a>
+    <p class="movie-meta">2026 · 韩国 · 电影</p>
+    <p class="movie-one-line">一个在城市长大的男孩被送回乡下奶奶家，奶奶说：“你走到十里外那个车站，我就告诉你爸爸在哪。”</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">城乡</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="前往百老汇" data-region="美国" data-type="电视剧(迷你剧)" data-year="2023" data-tags="逐梦 幕后 种族 友谊 歌舞 剧情" data-search="前往百老汇 美国 电视剧(迷你剧) 2023 歌舞/剧情 逐梦，幕后，种族，友谊 四个不同肤色的年轻舞者，在百老汇最残酷的选角周里结成同盟，却发现最终名额只有一个。">
+  <a class="poster-link" href="./movie-55.html" aria-label="观看前往百老汇">
+    <img src="./55.jpg" alt="前往百老汇" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-55.html">前往百老汇</a>
+    <p class="movie-meta">2023 · 美国 · 电视剧(迷你剧)</p>
+    <p class="movie-one-line">四个不同肤色的年轻舞者，在百老汇最残酷的选角周里结成同盟，却发现最终名额只有一个。</p>
+    <div class="movie-chips">
+      <span class="chip">歌舞</span>
+          <span class="chip">剧情</span>
+          <span class="chip">逐梦</span>
+          <span class="chip">幕后</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="风行四季" data-region="中国内地" data-type="剧集" data-year="2005" data-tags="四合院 街坊邻居 市井温情 情景喜剧 家庭" data-search="风行四季 中国内地 剧集 2005 情景喜剧，家庭 四合院，街坊邻居，市井温情 北京老胡同里的一间四合院，住着三户人家，他们的琐碎日常就是整个四季的风景。">
+  <a class="poster-link" href="./movie-64.html" aria-label="观看风行四季">
+    <img src="./64.jpg" alt="风行四季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-64.html">风行四季</a>
+    <p class="movie-meta">2005 · 中国内地 · 剧集</p>
+    <p class="movie-one-line">北京老胡同里的一间四合院，住着三户人家，他们的琐碎日常就是整个四季的风景。</p>
+    <div class="movie-chips">
+      <span class="chip">情景喜剧</span>
+          <span class="chip">家庭</span>
+          <span class="chip">四合院</span>
+          <span class="chip">街坊邻居</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="狐狸与猎狗" data-region="中国大陆" data-type="动画电影" data-year="2025" data-tags="友谊 对立 宿命 国风手绘 催泪 剧情 冒险 动物" data-search="狐狸与猎狗 中国大陆 动画电影 2025 剧情, 冒险, 动物 友谊, 对立, 宿命, 国风手绘, 催泪 一只被猎人养大的小狐狸，和一只被训练成猎犬的小狗，在森林深处结下了超越天敌的友谊，却终将面临命运的撕扯。">
+  <a class="poster-link" href="./movie-78.html" aria-label="观看狐狸与猎狗">
+    <img src="./78.jpg" alt="狐狸与猎狗" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-78.html">狐狸与猎狗</a>
+    <p class="movie-meta">2025 · 中国大陆 · 动画电影</p>
+    <p class="movie-one-line">一只被猎人养大的小狐狸，和一只被训练成猎犬的小狗，在森林深处结下了超越天敌的友谊，却终将面临命运的撕扯。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">冒险</span>
+          <span class="chip">动物</span>
+          <span class="chip">友谊</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="美国老爸第十六季" data-region="美国" data-type="剧集" data-year="2024" data-tags="成人动画 政治讽刺 家庭闹剧 CIA 无厘头 喜剧 动画" data-search="美国老爸第十六季 美国 剧集 2024 喜剧、动画 成人动画、政治讽刺、家庭闹剧、CIA、无厘头 外星人罗杰的变装身份暴露，导致整个小镇开始模仿他的多重人格，陷入一场身份认知大混乱。">
+  <a class="poster-link" href="./movie-115.html" aria-label="观看美国老爸第十六季">
+    <img src="./115.jpg" alt="美国老爸第十六季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-115.html">美国老爸第十六季</a>
+    <p class="movie-meta">2024 · 美国 · 剧集</p>
+    <p class="movie-one-line">外星人罗杰的变装身份暴露，导致整个小镇开始模仿他的多重人格，陷入一场身份认知大混乱。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">动画</span>
+          <span class="chip">成人动画</span>
+          <span class="chip">政治讽刺</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="金榜英雄" data-region="中国香港" data-type="电影" data-year="2026" data-tags="高考 动作喜剧 学渣逆袭 热血 香港 动作 校园 喜剧" data-search="金榜英雄 中国香港 电影 2026 动作, 校园, 喜剧 高考, 动作喜剧, 学渣逆袭, 热血, 香港 全港最烂学校的六个学渣，为了不被集体降级，必须联手在模拟考中击败贵族名校。">
+  <a class="poster-link" href="./movie-117.html" aria-label="观看金榜英雄">
+    <img src="./117.jpg" alt="金榜英雄" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-117.html">金榜英雄</a>
+    <p class="movie-meta">2026 · 中国香港 · 电影</p>
+    <p class="movie-one-line">全港最烂学校的六个学渣，为了不被集体降级，必须联手在模拟考中击败贵族名校。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">校园</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">高考</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="保罗·摩菲" data-region="美国" data-type="电影" data-year="2021" data-tags="国际象棋 天才 19世纪 孤独 精神病 剧情 传记 运动" data-search="保罗·摩菲 美国 电影 2021 剧情 / 传记 / 运动 国际象棋, 天才, 19世纪, 孤独, 精神病 19 世纪国际象棋天才保罗·摩菲，横扫欧洲棋坛后却突然精神失常，电影试图还原他大脑里的那场“棋局”。">
+  <a class="poster-link" href="./movie-125.html" aria-label="观看保罗·摩菲">
+    <img src="./125.jpg" alt="保罗·摩菲" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-125.html">保罗·摩菲</a>
+    <p class="movie-meta">2021 · 美国 · 电影</p>
+    <p class="movie-one-line">19 世纪国际象棋天才保罗·摩菲，横扫欧洲棋坛后却突然精神失常，电影试图还原他大脑里的那场“棋局”。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">传记</span>
+          <span class="chip">运动</span>
+          <span class="chip">国际象棋</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="月老传之幽冥绝" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="神话 前世今生 虐恋 东方美学 奇幻 爱情" data-search="月老传之幽冥绝 中国大陆 电影 2026 奇幻, 爱情 神话, 前世今生, 虐恋, 东方美学 月下老人因错牵了一段孽缘被打入幽冥，却发现那段孽缘正是自己的前世。">
+  <a class="poster-link" href="./movie-130.html" aria-label="观看月老传之幽冥绝">
+    <img src="./130.jpg" alt="月老传之幽冥绝" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-130.html">月老传之幽冥绝</a>
+    <p class="movie-meta">2026 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">月下老人因错牵了一段孽缘被打入幽冥，却发现那段孽缘正是自己的前世。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">爱情</span>
+          <span class="chip">神话</span>
+          <span class="chip">前世今生</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="慈善舞会" data-region="英国" data-type="电影" data-year="2024" data-tags="英式喜剧 庄园 谋杀 上流社会 黑色幽默 喜剧 悬疑 剧情" data-search="慈善舞会 英国 电影 2024 喜剧， 悬疑， 剧情 英式喜剧， 庄园， 谋杀， 上流社会， 黑色幽默 在一场名流云集的慈善舞会上，主人被谋杀，而每个宾客为了维护自己的“慈善家人设”都声称自己是凶手。">
+  <a class="poster-link" href="./movie-140.html" aria-label="观看慈善舞会">
+    <img src="./140.jpg" alt="慈善舞会" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-140.html">慈善舞会</a>
+    <p class="movie-meta">2024 · 英国 · 电影</p>
+    <p class="movie-one-line">在一场名流云集的慈善舞会上，主人被谋杀，而每个宾客为了维护自己的“慈善家人设”都声称自己是凶手。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">剧情</span>
+          <span class="chip">英式喜剧</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="边境无间" data-region="中国大陆 / 缅甸" data-type="电影" data-year="2017" data-tags="緝毒 臥底 金三角 犯罪动作" data-search="边境无间 中国大陆 / 缅甸 电影 2017 犯罪动作 緝毒，臥底，金三角 一名中国缉毒警假扮毒贩打入边境黑市，却发现接头人是他失散十五年的亲弟弟。">
+  <a class="poster-link" href="./movie-151.html" aria-label="观看边境无间">
+    <img src="./1.jpg" alt="边境无间" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-151.html">边境无间</a>
+    <p class="movie-meta">2017 · 中国大陆 / 缅甸 · 电影</p>
+    <p class="movie-one-line">一名中国缉毒警假扮毒贩打入边境黑市，却发现接头人是他失散十五年的亲弟弟。</p>
+    <div class="movie-chips">
+      <span class="chip">犯罪动作</span>
+          <span class="chip">緝毒</span>
+          <span class="chip">臥底</span>
+          <span class="chip">金三角</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="大梦归离" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="盗梦 古装 亲情 奇幻 剧情" data-search="大梦归离 中国大陆 电影 2026 奇幻 / 剧情 盗梦， 古装， 亲情 一名能潜入梦境的捉妖师，接到一单生意：进入昏迷将军的梦中，唤醒他，却发现梦里是一个被他亲手毁灭的理想国。">
+  <a class="poster-link" href="./movie-156.html" aria-label="观看大梦归离">
+    <img src="./6.jpg" alt="大梦归离" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-156.html">大梦归离</a>
+    <p class="movie-meta">2026 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一名能潜入梦境的捉妖师，接到一单生意：进入昏迷将军的梦中，唤醒他，却发现梦里是一个被他亲手毁灭的理想国。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">剧情</span>
+          <span class="chip">盗梦</span>
+          <span class="chip">古装</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="猩球崛起2:黎明之战" data-region="美国" data-type="电影" data-year="2014" data-tags="猿族 凯撒 人类存亡 森林战争 信任危机 科幻 动作 剧情" data-search="猩球崛起2:黎明之战 美国 电影 2014 科幻，动作，剧情 猿族，凯撒，人类存亡，森林战争，信任危机 凯撒建立猿族社会的第二年，一个人类幸存者营地误杀了他的儿子。">
+  <a class="poster-link" href="./movie-162.html" aria-label="观看猩球崛起2:黎明之战">
+    <img src="./12.jpg" alt="猩球崛起2:黎明之战" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-162.html">猩球崛起2:黎明之战</a>
+    <p class="movie-meta">2014 · 美国 · 电影</p>
+    <p class="movie-one-line">凯撒建立猿族社会的第二年，一个人类幸存者营地误杀了他的儿子。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">动作</span>
+          <span class="chip">剧情</span>
+          <span class="chip">猿族</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="一起入魔" data-region="中国香港" data-type="电影" data-year="2025" data-tags="邪教 心理操控 集体癔症 社会派 悬疑 惊悚" data-search="一起入魔 中国香港 电影 2025 悬疑 / 惊悚 邪教，心理操控，集体癔症，社会派 一个心理师卧底进一个“一起入魔”的线上冥想群，却发现入魔的不是群友，而是整个社会的焦虑。">
+  <a class="poster-link" href="./movie-174.html" aria-label="观看一起入魔">
+    <img src="./24.jpg" alt="一起入魔" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-174.html">一起入魔</a>
+    <p class="movie-meta">2025 · 中国香港 · 电影</p>
+    <p class="movie-one-line">一个心理师卧底进一个“一起入魔”的线上冥想群，却发现入魔的不是群友，而是整个社会的焦虑。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">邪教</span>
+          <span class="chip">心理操控</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="陆战特工" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="特种兵 反恐 热血 动作 战争" data-search="陆战特工 中国大陆 电影 2025 动作, 战争 特种兵, 反恐, 热血 一名退役的中国陆战特工重披战甲，深入东南亚丛林，营救被地方武装绑架的华裔科学家。">
+  <a class="poster-link" href="./movie-175.html" aria-label="观看陆战特工">
+    <img src="./25.jpg" alt="陆战特工" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-175.html">陆战特工</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一名退役的中国陆战特工重披战甲，深入东南亚丛林，营救被地方武装绑架的华裔科学家。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">战争</span>
+          <span class="chip">特种兵</span>
+          <span class="chip">反恐</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="半裸大秘密" data-region="韩国" data-type="电影" data-year="2022" data-tags="身体交换 社死现场 女性友谊 喜剧 悬疑" data-search="半裸大秘密 韩国 电影 2022 喜剧, 悬疑 身体交换, 社死现场, 女性友谊 一场桑拿房煤气泄漏后，三个互不相识的女人一觉醒来，发现每人身上都多了一块不属于自己的文身。">
+  <a class="poster-link" href="./movie-192.html" aria-label="观看半裸大秘密">
+    <img src="./42.jpg" alt="半裸大秘密" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-192.html">半裸大秘密</a>
+    <p class="movie-meta">2022 · 韩国 · 电影</p>
+    <p class="movie-one-line">一场桑拿房煤气泄漏后，三个互不相识的女人一觉醒来，发现每人身上都多了一块不属于自己的文身。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">身体交换</span>
+          <span class="chip">社死现场</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="洞房花烛" data-region="中国大陆" data-type="电影 悬疑, 恐怖" data-year="2025" data-tags="中式恐怖 冥婚 民俗 反转 心理惊悚 悬疑 恐怖" data-search="洞房花烛 中国大陆 电影 悬疑, 恐怖 2025 悬疑, 恐怖 中式恐怖, 冥婚, 民俗, 反转, 心理惊悚 新娘在新婚夜发现，丈夫家要娶的根本不是她，而是三年前死在这个房间里的那个“她”。">
+  <a class="poster-link" href="./movie-194.html" aria-label="观看洞房花烛">
+    <img src="./44.jpg" alt="洞房花烛" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-194.html">洞房花烛</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影 悬疑, 恐怖</p>
+    <p class="movie-one-line">新娘在新婚夜发现，丈夫家要娶的根本不是她，而是三年前死在这个房间里的那个“她”。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">恐怖</span>
+          <span class="chip">中式恐怖</span>
+          <span class="chip">冥婚</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="胖子行动队" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="特工 减肥 误打误撞 搭档 搞笑 喜剧 动作" data-search="胖子行动队 中国大陆 电影 2025 喜剧 / 动作 特工, 减肥, 误打误撞, 搭档, 搞笑 两个因公致残的超重前特工，为了获取高额奖金参加减肥营，却意外撞上了国际军火交易。">
+  <a class="poster-link" href="./movie-197.html" aria-label="观看胖子行动队">
+    <img src="./47.jpg" alt="胖子行动队" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-197.html">胖子行动队</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">两个因公致残的超重前特工，为了获取高额奖金参加减肥营，却意外撞上了国际军火交易。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">动作</span>
+          <span class="chip">特工</span>
+          <span class="chip">减肥</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="火线下的江湖大佬粤语" data-region="香港" data-type="电视剧" data-year="2025" data-tags="卧底 社团 兄弟情 原声粤语 犯罪黑帮" data-search="火线下的江湖大佬粤语 香港 电视剧 2025 犯罪黑帮 卧底, 社团, 兄弟情, 原声粤语 上世纪90年代叱咤风云的江湖大佬出狱，却发现顶替他位置的，竟是当年亲手抓他的卧底探员。">
+  <a class="poster-link" href="./movie-202.html" aria-label="观看火线下的江湖大佬粤语">
+    <img src="./52.jpg" alt="火线下的江湖大佬粤语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-202.html">火线下的江湖大佬粤语</a>
+    <p class="movie-meta">2025 · 香港 · 电视剧</p>
+    <p class="movie-one-line">上世纪90年代叱咤风云的江湖大佬出狱，却发现顶替他位置的，竟是当年亲手抓他的卧底探员。</p>
+    <div class="movie-chips">
+      <span class="chip">犯罪黑帮</span>
+          <span class="chip">卧底</span>
+          <span class="chip">社团</span>
+          <span class="chip">兄弟情</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="时髦女子" data-region="中国香港" data-type="电影" data-year="1967" data-tags="邵氏 摩登 女追男 复古时尚 摇摆舞 歌舞 爱情" data-search="时髦女子 中国香港 电影 1967 歌舞 / 爱情 邵氏, 摩登, 女追男, 复古时尚, 摇摆舞 60年代香港最时髦的百货公司柜姐，用一场大胆的倒追，打破了富家公子的花花世界。">
+  <a class="poster-link" href="./movie-205.html" aria-label="观看时髦女子">
+    <img src="./55.jpg" alt="时髦女子" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-205.html">时髦女子</a>
+    <p class="movie-meta">1967 · 中国香港 · 电影</p>
+    <p class="movie-one-line">60年代香港最时髦的百货公司柜姐，用一场大胆的倒追，打破了富家公子的花花世界。</p>
+    <div class="movie-chips">
+      <span class="chip">歌舞</span>
+          <span class="chip">爱情</span>
+          <span class="chip">邵氏</span>
+          <span class="chip">摩登</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="迎春花" data-region="中国大陆" data-type="电视剧" data-year="2025" data-tags="知青 回城 和解 家庭 年代" data-search="迎春花 中国大陆 电视剧 2025 家庭，年代 知青，回城，和解 70岁的老太太在整理亡夫遗物时，发现一封未寄出的信，揭开了自己并非亲生女儿的秘密。">
+  <a class="poster-link" href="./movie-214.html" aria-label="观看迎春花">
+    <img src="./64.jpg" alt="迎春花" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-214.html">迎春花</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">70岁的老太太在整理亡夫遗物时，发现一封未寄出的信，揭开了自己并非亲生女儿的秘密。</p>
+    <div class="movie-chips">
+      <span class="chip">家庭</span>
+          <span class="chip">年代</span>
+          <span class="chip">知青</span>
+          <span class="chip">回城</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="致命女人香" data-region="法国 / 意大利" data-type="电影" data-year="2026" data-tags="香水 复仇 女性 嗅觉 艺术犯罪 剧情 惊悚 犯罪" data-search="致命女人香 法国 / 意大利 电影 2026 剧情 / 惊悚 / 犯罪 香水、复仇、女性、嗅觉、艺术犯罪 一位天才女调香师用三种致命香味，逐一诛杀毁掉她嗅觉的香水帝国继承人。">
+  <a class="poster-link" href="./movie-255.html" aria-label="观看致命女人香">
+    <img src="./105.jpg" alt="致命女人香" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-255.html">致命女人香</a>
+    <p class="movie-meta">2026 · 法国 / 意大利 · 电影</p>
+    <p class="movie-one-line">一位天才女调香师用三种致命香味，逐一诛杀毁掉她嗅觉的香水帝国继承人。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">香水</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="犬夜叉：红莲之蓬莱岛" data-region="日本" data-type="电影" data-year="2025" data-tags="犬夜叉 剧场版 蓬莱岛 四魂之玉 新反派 奇幻 动作 冒险" data-search="犬夜叉：红莲之蓬莱岛 日本 电影 2025 奇幻 / 动作 / 冒险 犬夜叉，剧场版，蓬莱岛，四魂之玉，新反派 戈薇的灵力探测到一个不存在的岛屿——蓬莱岛，岛上关押着五百年前犬夜叉亲手封印的“另一半自己”。">
+  <a class="poster-link" href="./movie-288.html" aria-label="观看犬夜叉：红莲之蓬莱岛">
+    <img src="./138.jpg" alt="犬夜叉：红莲之蓬莱岛" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-288.html">犬夜叉：红莲之蓬莱岛</a>
+    <p class="movie-meta">2025 · 日本 · 电影</p>
+    <p class="movie-one-line">戈薇的灵力探测到一个不存在的岛屿——蓬莱岛，岛上关押着五百年前犬夜叉亲手封印的“另一半自己”。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">动作</span>
+          <span class="chip">冒险</span>
+          <span class="chip">犬夜叉</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="查理·布拉沃" data-region="美国" data-type="电影" data-year="2025" data-tags="特工 失忆 复仇 硬核 反转 动作 惊悚" data-search="查理·布拉沃 美国 电影 2025 动作 / 惊悚 特工, 失忆, 复仇, 硬核, 反转 顶级特工查理·布拉沃在一次任务中失忆，却被昔日搭档追杀，他只能靠身体本能杀出真相。">
+  <a class="poster-link" href="./movie-295.html" aria-label="观看查理·布拉沃">
+    <img src="./145.jpg" alt="查理·布拉沃" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-295.html">查理·布拉沃</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">顶级特工查理·布拉沃在一次任务中失忆，却被昔日搭档追杀，他只能靠身体本能杀出真相。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">特工</span>
+          <span class="chip">失忆</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="再生缘粤语" data-region="香港" data-type="剧集" data-year="2024" data-tags="粤语原声 前世今生 民国 戏曲 宿命 爱情 穿越" data-search="再生缘粤语 香港 剧集 2024 爱情, 穿越 粤语原声, 前世今生, 民国, 戏曲, 宿命 粤剧花旦每次登台都会失去意识，醒来后发现自己“活”成了民国时另一个女人的样子。">
+  <a class="poster-link" href="./movie-298.html" aria-label="观看再生缘粤语">
+    <img src="./148.jpg" alt="再生缘粤语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-298.html">再生缘粤语</a>
+    <p class="movie-meta">2024 · 香港 · 剧集</p>
+    <p class="movie-one-line">粤剧花旦每次登台都会失去意识，醒来后发现自己“活”成了民国时另一个女人的样子。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">穿越</span>
+          <span class="chip">粤语原声</span>
+          <span class="chip">前世今生</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="心魔2020" data-region="中国香港" data-type="电影" data-year="2020" data-tags="疫情背景 幽闭恐惧 幻觉与真实 密室心理战 心理惊悚 剧情" data-search="心魔2020 中国香港 电影 2020 心理惊悚, 剧情 疫情背景, 幽闭恐惧, 幻觉与真实, 密室心理战 2020年独居隔离的男子，发现墙对面传来的敲击声，只有他自己能听见。">
+  <a class="poster-link" href="./movie-300.html" aria-label="观看心魔2020">
+    <img src="./150.jpg" alt="心魔2020" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-300.html">心魔2020</a>
+    <p class="movie-meta">2020 · 中国香港 · 电影</p>
+    <p class="movie-one-line">2020年独居隔离的男子，发现墙对面传来的敲击声，只有他自己能听见。</p>
+    <div class="movie-chips">
+      <span class="chip">心理惊悚</span>
+          <span class="chip">剧情</span>
+          <span class="chip">疫情背景</span>
+          <span class="chip">幽闭恐惧</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="老公们的私房钱" data-region="中国大陆" data-type="剧集" data-year="2016" data-tags="婚姻 金钱 信任 搞笑 都市 剧情 家庭 喜剧" data-search="老公们的私房钱 中国大陆 剧集 2016 剧情 / 家庭 / 喜剧 婚姻，金钱，信任，搞笑，都市 三个闺蜜意外发现各自的老公都藏了巨额私房钱，于是组成“反私房钱联盟”，与老公们展开一场啼笑皆非的智力大战。">
+  <a class="poster-link" href="./movie-337.html" aria-label="观看老公们的私房钱">
+    <img src="./37.jpg" alt="老公们的私房钱" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-337.html">老公们的私房钱</a>
+    <p class="movie-meta">2016 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">三个闺蜜意外发现各自的老公都藏了巨额私房钱，于是组成“反私房钱联盟”，与老公们展开一场啼笑皆非的智力大战。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">婚姻</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="徘徊者" data-region="美国" data-type="电影" data-year="2025" data-tags="太空 怪物 生存 科幻 惊悚" data-search="徘徊者 美国 电影 2025 科幻, 惊悚 太空, 怪物, 生存 深空采矿船的船员，在休眠中醒来发现船内多了一个“人”，且它正在模仿他们。">
+  <a class="poster-link" href="./movie-345.html" aria-label="观看徘徊者">
+    <img src="./45.jpg" alt="徘徊者" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-345.html">徘徊者</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">深空采矿船的船员，在休眠中醒来发现船内多了一个“人”，且它正在模仿他们。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">太空</span>
+          <span class="chip">怪物</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="四戒" data-region="中国" data-type="电影" data-year="2014" data-tags="因果报应 黑色幽默 多线叙事 悬疑 犯罪" data-search="四戒 中国 电影 2014 悬疑 / 犯罪 因果报应，黑色幽默，多线叙事 货车司机老吴为还赌债铤而走险，却不知车上四箱神秘的“货物”正将无数人引向同一个修罗场。">
+  <a class="poster-link" href="./movie-347.html" aria-label="观看四戒">
+    <img src="./47.jpg" alt="四戒" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-347.html">四戒</a>
+    <p class="movie-meta">2014 · 中国 · 电影</p>
+    <p class="movie-one-line">货车司机老吴为还赌债铤而走险，却不知车上四箱神秘的“货物”正将无数人引向同一个修罗场。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">因果报应</span>
+          <span class="chip">黑色幽默</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="好汉两个半第十二季" data-region="美国" data-type="电视剧" data-year="2014" data-tags="兄弟 毒舌 宅男 最终季 喜剧 情景剧" data-search="好汉两个半第十二季 美国 电视剧 2014 喜剧, 情景剧 兄弟, 毒舌, 宅男, 最终季 花花公子叔叔与宅男外甥的混乱生活进入最终章，这次他们要共同面对一个从天而降的“女儿”。">
+  <a class="poster-link" href="./movie-353.html" aria-label="观看好汉两个半第十二季">
+    <img src="./53.jpg" alt="好汉两个半第十二季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-353.html">好汉两个半第十二季</a>
+    <p class="movie-meta">2014 · 美国 · 电视剧</p>
+    <p class="movie-one-line">花花公子叔叔与宅男外甥的混乱生活进入最终章，这次他们要共同面对一个从天而降的“女儿”。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">情景剧</span>
+          <span class="chip">兄弟</span>
+          <span class="chip">毒舌</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="守护者们" data-region="中国大陆" data-type="剧集" data-year="2027" data-tags="安保公司 退伍军人 神秘雇主 惊天阴谋 团队作战 悬疑动作" data-search="守护者们 中国大陆 剧集 2027 悬疑动作 安保公司，退伍军人，神秘雇主，惊天阴谋，团队作战 六名退伍兵开了一家安保公司，第一位客户是让他们保护一个9岁女孩，而这个女孩能预知死亡。">
+  <a class="poster-link" href="./movie-355.html" aria-label="观看守护者们">
+    <img src="./55.jpg" alt="守护者们" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-355.html">守护者们</a>
+    <p class="movie-meta">2027 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">六名退伍兵开了一家安保公司，第一位客户是让他们保护一个9岁女孩，而这个女孩能预知死亡。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑动作</span>
+          <span class="chip">安保公司</span>
+          <span class="chip">退伍军人</span>
+          <span class="chip">神秘雇主</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="愚乐公路" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="黑色幽默 失意者联盟 荒诞旅程 社会讽刺 治愈向 公路 喜剧 剧情" data-search="愚乐公路 中国大陆 电影 2026 公路 / 喜剧 / 剧情 黑色幽默，失意者联盟，荒诞旅程，社会讽刺，治愈向 一个破产老板、一个过气网红、一个逃婚新娘拼车自驾去西藏，一路上遇到的荒诞事比他们的人生还离谱。">
+  <a class="poster-link" href="./movie-363.html" aria-label="观看愚乐公路">
+    <img src="./63.jpg" alt="愚乐公路" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-363.html">愚乐公路</a>
+    <p class="movie-meta">2026 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一个破产老板、一个过气网红、一个逃婚新娘拼车自驾去西藏，一路上遇到的荒诞事比他们的人生还离谱。</p>
+    <div class="movie-chips">
+      <span class="chip">公路</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">剧情</span>
+          <span class="chip">黑色幽默</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="沧月绘" data-region="中国大陆" data-type="电视剧" data-year="2023" data-tags="入画 时空循环 画师 双向奔赴 古装 奇幻 爱情" data-search="沧月绘 中国大陆 电视剧 2023 古装, 奇幻, 爱情 入画, 时空循环, 画师, 双向奔赴 失意画师意外发现自己能进入自己的画中世界，并在那里遇到了一个被困了三百年的女子。">
+  <a class="poster-link" href="./movie-378.html" aria-label="观看沧月绘">
+    <img src="./78.jpg" alt="沧月绘" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-378.html">沧月绘</a>
+    <p class="movie-meta">2023 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">失意画师意外发现自己能进入自己的画中世界，并在那里遇到了一个被困了三百年的女子。</p>
+    <div class="movie-chips">
+      <span class="chip">古装</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">爱情</span>
+          <span class="chip">入画</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="歌王艳史" data-region="美国" data-type="电影" data-year="2025" data-tags="歌手 丑闻 黑胶时代 传奇 剧情 歌舞 传记" data-search="歌王艳史 美国 电影 2025 剧情, 歌舞, 传记 歌手, 丑闻, 黑胶时代, 传奇 50年代爵士歌王表面风光无限，私底下却被白人经纪人控制、被黑帮追杀，恋人是同性。">
+  <a class="poster-link" href="./movie-384.html" aria-label="观看歌王艳史">
+    <img src="./84.jpg" alt="歌王艳史" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-384.html">歌王艳史</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">50年代爵士歌王表面风光无限，私底下却被白人经纪人控制、被黑帮追杀，恋人是同性。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">歌舞</span>
+          <span class="chip">传记</span>
+          <span class="chip">歌手</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="奉子不成婚" data-region="中国台湾" data-type="电影" data-year="2018" data-tags="婚姻 家庭 意外怀孕 成长 温情 剧情 喜剧 爱情" data-search="奉子不成婚 中国台湾 电影 2018 剧情 / 喜剧 / 爱情 婚姻、家庭、意外怀孕、成长、温情 一场意外的怀孕，让一对计划分手的恋人被迫捆绑，却意外发现了爱的另一种可能。">
+  <a class="poster-link" href="./movie-423.html" aria-label="观看奉子不成婚">
+    <img src="./123.jpg" alt="奉子不成婚" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-423.html">奉子不成婚</a>
+    <p class="movie-meta">2018 · 中国台湾 · 电影</p>
+    <p class="movie-one-line">一场意外的怀孕，让一对计划分手的恋人被迫捆绑，却意外发现了爱的另一种可能。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">爱情</span>
+          <span class="chip">婚姻</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="夜刑者" data-region="英国 / 美国" data-type="电影" data-year="2024" data-tags="黑暗英雄 复仇 硬核格斗 伦敦 动作 惊悚" data-search="夜刑者 英国 / 美国 电影 2024 动作 / 惊悚 黑暗英雄, 复仇, 硬核格斗, 伦敦 一个患有严重失眠症的前特工，每晚在伦敦地铁里“清理”那些本该下地狱的恶人。">
+  <a class="poster-link" href="./movie-429.html" aria-label="观看夜刑者">
+    <img src="./129.jpg" alt="夜刑者" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-429.html">夜刑者</a>
+    <p class="movie-meta">2024 · 英国 / 美国 · 电影</p>
+    <p class="movie-one-line">一个患有严重失眠症的前特工，每晚在伦敦地铁里“清理”那些本该下地狱的恶人。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">黑暗英雄</span>
+          <span class="chip">复仇</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="倾斜的花园" data-region="法国" data-type="电影" data-year="2018" data-tags="超现实 记忆修复 亲情 视觉奇观 剧情 奇幻" data-search="倾斜的花园 法国 电影 2018 剧情， 奇幻 超现实， 记忆修复， 亲情， 视觉奇观 一位患阿尔兹海默症的老园艺师，发现他打理了一辈子的花园地面开始向童年的方向倾斜。">
+  <a class="poster-link" href="./movie-438.html" aria-label="观看倾斜的花园">
+    <img src="./138.jpg" alt="倾斜的花园" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-438.html">倾斜的花园</a>
+    <p class="movie-meta">2018 · 法国 · 电影</p>
+    <p class="movie-one-line">一位患阿尔兹海默症的老园艺师，发现他打理了一辈子的花园地面开始向童年的方向倾斜。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">超现实</span>
+          <span class="chip">记忆修复</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="驱·逐" data-region="泰国" data-type="电影" data-year="2024" data-tags="古曼童 母子 贫民窟 因果 恐怖 惊悚" data-search="驱·逐 泰国 电影 2024 恐怖/惊悚 古曼童, 母子, 贫民窟, 因果 为了不被房东驱逐，单亲妈妈将死婴制成古曼童供奉，从此家里多了一个“看不见的房客”。">
+  <a class="poster-link" href="./movie-441.html" aria-label="观看驱·逐">
+    <img src="./141.jpg" alt="驱·逐" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-441.html">驱·逐</a>
+    <p class="movie-meta">2024 · 泰国 · 电影</p>
+    <p class="movie-one-line">为了不被房东驱逐，单亲妈妈将死婴制成古曼童供奉，从此家里多了一个“看不见的房客”。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">古曼童</span>
+          <span class="chip">母子</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="人狼游戏：地狱" data-region="日本" data-type="电影" data-year="2025" data-tags="生存游戏 人性考验 狼人杀 血腥 惊悚 悬疑" data-search="人狼游戏：地狱 日本 电影 2025 惊悚，悬疑 生存游戏，人性考验，狼人杀，血腥 16个死刑犯被强制参加真人版狼人杀，每轮投错一人，全体都会触电。">
+  <a class="poster-link" href="./movie-451.html" aria-label="观看人狼游戏：地狱">
+    <img src="./1.jpg" alt="人狼游戏：地狱" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-451.html">人狼游戏：地狱</a>
+    <p class="movie-meta">2025 · 日本 · 电影</p>
+    <p class="movie-one-line">16个死刑犯被强制参加真人版狼人杀，每轮投错一人，全体都会触电。</p>
+    <div class="movie-chips">
+      <span class="chip">惊悚</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">生存游戏</span>
+          <span class="chip">人性考验</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="深渊2001" data-region="美国" data-type="电影" data-year="2025" data-tags="深海 AI 救援 密闭空间 未知生物 科幻 灾难" data-search="深渊2001 美国 电影 2025 科幻 / 灾难 深海，AI，救援，密闭空间，未知生物 2001年，深海外星信号唤醒钻井平台AI，它认为人类才是海洋的病毒。">
+  <a class="poster-link" href="./movie-452.html" aria-label="观看深渊2001">
+    <img src="./2.jpg" alt="深渊2001" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-452.html">深渊2001</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">2001年，深海外星信号唤醒钻井平台AI，它认为人类才是海洋的病毒。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">灾难</span>
+          <span class="chip">深海</span>
+          <span class="chip">AI</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="卡萨格兰德一家大电影" data-region="美国" data-type="Movie" data-year="2024" data-tags="墨西哥文化 大家族 公路片 冒险 成长 动画 家庭 喜剧" data-search="卡萨格兰德一家大电影 美国 Movie 2024 动画，家庭，喜剧 墨西哥文化，大家族，公路片，冒险，成长 卡萨格兰德家族的12个孩子为了给奶奶买生日礼物，偷偷开走房车横跨半个墨西哥，后面追着暴怒的父母。">
+  <a class="poster-link" href="./movie-454.html" aria-label="观看卡萨格兰德一家大电影">
+    <img src="./4.jpg" alt="卡萨格兰德一家大电影" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-454.html">卡萨格兰德一家大电影</a>
+    <p class="movie-meta">2024 · 美国 · Movie</p>
+    <p class="movie-one-line">卡萨格兰德家族的12个孩子为了给奶奶买生日礼物，偷偷开走房车横跨半个墨西哥，后面追着暴怒的父母。</p>
+    <div class="movie-chips">
+      <span class="chip">动画</span>
+          <span class="chip">家庭</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">墨西哥文化</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="此心安处是吾乡" data-region="中国" data-type="电视剧" data-year="2020" data-tags="拆迁 故乡 老北京 邻里 温情 剧情 家庭 都市" data-search="此心安处是吾乡 中国 电视剧 2020 剧情 / 家庭 / 都市 拆迁, 故乡, 老北京, 邻里, 温情 一群北京老胡同里的邻居，在城市改造的最后一年里，上演了一出关于“根”的悲喜剧。">
+  <a class="poster-link" href="./movie-467.html" aria-label="观看此心安处是吾乡">
+    <img src="./17.jpg" alt="此心安处是吾乡" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-467.html">此心安处是吾乡</a>
+    <p class="movie-meta">2020 · 中国 · 电视剧</p>
+    <p class="movie-one-line">一群北京老胡同里的邻居，在城市改造的最后一年里，上演了一出关于“根”的悲喜剧。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">都市</span>
+          <span class="chip">拆迁</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="幸福汤屋" data-region="日本" data-type="电影" data-year="2025" data-tags="温泉旅馆 临终 和解 剧情 家庭" data-search="幸福汤屋 日本 电影 2025 剧情 / 家庭 温泉旅馆, 临终, 和解 经营老字号汤屋的母亲只剩三个月生命，她叫回了四散各地的“问题子女”最后一次团聚。">
+  <a class="poster-link" href="./movie-468.html" aria-label="观看幸福汤屋">
+    <img src="./18.jpg" alt="幸福汤屋" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-468.html">幸福汤屋</a>
+    <p class="movie-meta">2025 · 日本 · 电影</p>
+    <p class="movie-one-line">经营老字号汤屋的母亲只剩三个月生命，她叫回了四散各地的“问题子女”最后一次团聚。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">温泉旅馆</span>
+          <span class="chip">临终</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="丑闻" data-region="韩国" data-type="电影" data-year="2024" data-tags="媒体 真相 复仇 记者 社会 剧情 悬疑 政治" data-search="丑闻 韩国 电影 2024 剧情、悬疑、政治 媒体、真相、复仇、记者、社会 一个过气记者为翻身，编造了议员的丑闻，当议员被网络暴力逼死后，他才发现，自己编造的居然是真的。">
+  <a class="poster-link" href="./movie-477.html" aria-label="观看丑闻">
+    <img src="./27.jpg" alt="丑闻" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-477.html">丑闻</a>
+    <p class="movie-meta">2024 · 韩国 · 电影</p>
+    <p class="movie-one-line">一个过气记者为翻身，编造了议员的丑闻，当议员被网络暴力逼死后，他才发现，自己编造的居然是真的。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">政治</span>
+          <span class="chip">媒体</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="通心树粤语" data-region="中国香港" data-type="电视剧" data-year="2005" data-tags="粤语原声 都市传说 灵异树洞 通心 单元剧 奇幻 悬疑 爱情" data-search="通心树粤语 中国香港 电视剧 2005 奇幻，悬疑，爱情 粤语原声，都市传说，灵异树洞，通心，单元剧 旺角闹市有一棵百年老榕树，树心是空的，只要你对着树洞说出心事，你的愿望就会成真——但代价是你想不到的。">
+  <a class="poster-link" href="./movie-480.html" aria-label="观看通心树粤语">
+    <img src="./30.jpg" alt="通心树粤语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-480.html">通心树粤语</a>
+    <p class="movie-meta">2005 · 中国香港 · 电视剧</p>
+    <p class="movie-one-line">旺角闹市有一棵百年老榕树，树心是空的，只要你对着树洞说出心事，你的愿望就会成真——但代价是你想不到的。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">爱情</span>
+          <span class="chip">粤语原声</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="孤儿橄榄球队" data-region="中国大陆" data-type="电影" data-year="2028" data-tags="孤儿 逆袭 热血 西部 剧情 运动" data-search="孤儿橄榄球队 中国大陆 电影 2028 剧情 / 运动 孤儿, 逆袭, 热血, 西部 大凉山深处，一位前职业球员带着一群彝族孤儿组建球队，目标是打进全国少年联赛。">
+  <a class="poster-link" href="./movie-483.html" aria-label="观看孤儿橄榄球队">
+    <img src="./33.jpg" alt="孤儿橄榄球队" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-483.html">孤儿橄榄球队</a>
+    <p class="movie-meta">2028 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">大凉山深处，一位前职业球员带着一群彝族孤儿组建球队，目标是打进全国少年联赛。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">运动</span>
+          <span class="chip">孤儿</span>
+          <span class="chip">逆袭</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="危险行动" data-region="法国" data-type="电影" data-year="2024" data-tags="特工 阿尔卑斯山 滑雪 核弹 动作 冒险" data-search="危险行动 法国 电影 2024 动作 / 冒险 特工, 阿尔卑斯山, 滑雪, 核弹 一名退休特工必须在阿尔卑斯山最危险的滑雪道上，拦截一辆载有脏弹的失控缆车。">
+  <a class="poster-link" href="./movie-516.html" aria-label="观看危险行动">
+    <img src="./66.jpg" alt="危险行动" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-516.html">危险行动</a>
+    <p class="movie-meta">2024 · 法国 · 电影</p>
+    <p class="movie-one-line">一名退休特工必须在阿尔卑斯山最危险的滑雪道上，拦截一辆载有脏弹的失控缆车。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">冒险</span>
+          <span class="chip">特工</span>
+          <span class="chip">阿尔卑斯山</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="黑色少年" data-region="韩国" data-type="电影" data-year="2025" data-tags="校园暴力 以暴制暴 阶层对立 复仇之路 残酷青春 犯罪 剧情 青春" data-search="黑色少年 韩国 电影 2025 犯罪, 剧情, 青春 校园暴力, 以暴制暴, 阶层对立, 复仇之路, 残酷青春 一个被全校霸凌的瘦弱少年，意外加入地下黑拳组织，用拳头撕碎整个校园权力体系。">
+  <a class="poster-link" href="./movie-531.html" aria-label="观看黑色少年">
+    <img src="./81.jpg" alt="黑色少年" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-531.html">黑色少年</a>
+    <p class="movie-meta">2025 · 韩国 · 电影</p>
+    <p class="movie-one-line">一个被全校霸凌的瘦弱少年，意外加入地下黑拳组织，用拳头撕碎整个校园权力体系。</p>
+    <div class="movie-chips">
+      <span class="chip">犯罪</span>
+          <span class="chip">剧情</span>
+          <span class="chip">青春</span>
+          <span class="chip">校园暴力</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="大时代粤语" data-region="中国香港" data-type="电视剧" data-year="1992" data-tags="股票风云 丁蟹效应 港剧巅峰 复仇 郑少秋 剧情 商战 家族" data-search="大时代粤语 中国香港 电视剧 1992 剧情 / 商战 / 家族 股票风云, 丁蟹效应, 港剧巅峰, 复仇, 郑少秋 疯癫反派丁蟹用一套扭曲哲学摧毁两个家族，股市狂潮中人性的贪婪与血性惨烈对决。">
+  <a class="poster-link" href="./movie-546.html" aria-label="观看大时代粤语">
+    <img src="./96.jpg" alt="大时代粤语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-546.html">大时代粤语</a>
+    <p class="movie-meta">1992 · 中国香港 · 电视剧</p>
+    <p class="movie-one-line">疯癫反派丁蟹用一套扭曲哲学摧毁两个家族，股市狂潮中人性的贪婪与血性惨烈对决。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">商战</span>
+          <span class="chip">家族</span>
+          <span class="chip">股票风云</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="自由之声" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="盲人合唱团 乡村教师 对抗拆迁 音乐 剧情" data-search="自由之声 中国大陆 电影 2025 音乐 / 剧情 盲人合唱团, 乡村教师, 对抗拆迁 乡村音乐老师想带盲人孩子去省城比赛，而推土机下周就要推平他们的学校。">
+  <a class="poster-link" href="./movie-548.html" aria-label="观看自由之声">
+    <img src="./98.jpg" alt="自由之声" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-548.html">自由之声</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">乡村音乐老师想带盲人孩子去省城比赛，而推土机下周就要推平他们的学校。</p>
+    <div class="movie-chips">
+      <span class="chip">音乐</span>
+          <span class="chip">剧情</span>
+          <span class="chip">盲人合唱团</span>
+          <span class="chip">乡村教师</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="死亡之梦" data-region="日本" data-type="电影" data-year="2014" data-tags="梦境杀人 诅咒连锁 心理恐怖 都市传说 开放式结局 恐怖 悬疑 心理" data-search="死亡之梦 日本 电影 2014 恐怖 / 悬疑 / 心理 梦境杀人, 诅咒连锁, 心理恐怖, 都市传说, 开放式结局 一群大学生做了一个相同的梦：梦里有人告诉他们具体死亡时间。第一天，第一个人按梦里的方式死了。">
+  <a class="poster-link" href="./movie-567.html" aria-label="观看死亡之梦">
+    <img src="./117.jpg" alt="死亡之梦" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-567.html">死亡之梦</a>
+    <p class="movie-meta">2014 · 日本 · 电影</p>
+    <p class="movie-one-line">一群大学生做了一个相同的梦：梦里有人告诉他们具体死亡时间。第一天，第一个人按梦里的方式死了。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">心理</span>
+          <span class="chip">梦境杀人</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="我的新朋友" data-region="日本" data-type="电影" data-year="2025" data-tags="人工智能 老年痴呆 陪伴 治愈剧情" data-search="我的新朋友 日本 电影 2025 治愈剧情 人工智能，老年痴呆，陪伴 一个患阿尔茨海默症的老奶奶，把一个家政机器人当成了自己去世多年的丈夫。">
+  <a class="poster-link" href="./movie-574.html" aria-label="观看我的新朋友">
+    <img src="./124.jpg" alt="我的新朋友" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-574.html">我的新朋友</a>
+    <p class="movie-meta">2025 · 日本 · 电影</p>
+    <p class="movie-one-line">一个患阿尔茨海默症的老奶奶，把一个家政机器人当成了自己去世多年的丈夫。</p>
+    <div class="movie-chips">
+      <span class="chip">治愈剧情</span>
+          <span class="chip">人工智能</span>
+          <span class="chip">老年痴呆</span>
+          <span class="chip">陪伴</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="加速进行时" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="时间循环 赛车 高概念 科幻 悬疑" data-search="加速进行时 中国大陆 电影 2024 科幻, 悬疑 时间循环, 赛车, 高概念 废柴赛车手意外获得每次撞车就能让时间倒退10秒的超能力，却发现自己正被另一个“自己”追杀。">
+  <a class="poster-link" href="./movie-602.html" aria-label="观看加速进行时">
+    <img src="./2.jpg" alt="加速进行时" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-602.html">加速进行时</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">废柴赛车手意外获得每次撞车就能让时间倒退10秒的超能力，却发现自己正被另一个“自己”追杀。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">时间循环</span>
+          <span class="chip">赛车</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="坚信礼" data-region="美国" data-type="电影" data-year="2024" data-tags="信仰 父子和解 成长仪式 宗教冲突 剧情 家庭" data-search="坚信礼 美国 电影 2024 剧情 / 家庭 信仰, 父子和解, 成长仪式, 宗教冲突 一位无神论父亲陪儿子完成天主教坚信礼，却在神父的质问下揭开自己尘封的童年伤痕。">
+  <a class="poster-link" href="./movie-607.html" aria-label="观看坚信礼">
+    <img src="./7.jpg" alt="坚信礼" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-607.html">坚信礼</a>
+    <p class="movie-meta">2024 · 美国 · 电影</p>
+    <p class="movie-one-line">一位无神论父亲陪儿子完成天主教坚信礼，却在神父的质问下揭开自己尘封的童年伤痕。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">信仰</span>
+          <span class="chip">父子和解</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="墨西哥村庄" data-region="墨西哥" data-type="电影" data-year="2025" data-tags="魔幻现实主义 村庄秘史 诅咒 血缘 剧情 悬疑 奇幻" data-search="墨西哥村庄 墨西哥 电影 2025 剧情, 悬疑, 奇幻 魔幻现实主义, 村庄秘史, 诅咒, 血缘 一名少女在村庄的枯井中听到呼唤，继而发现整个村庄都在遗忘同一个人的存在。">
+  <a class="poster-link" href="./movie-614.html" aria-label="观看墨西哥村庄">
+    <img src="./14.jpg" alt="墨西哥村庄" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-614.html">墨西哥村庄</a>
+    <p class="movie-meta">2025 · 墨西哥 · 电影</p>
+    <p class="movie-one-line">一名少女在村庄的枯井中听到呼唤，继而发现整个村庄都在遗忘同一个人的存在。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">魔幻现实主义</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="恶有恶报" data-region="泰国" data-type="电影" data-year="2026" data-tags="佛牌 降头 霸凌者 回旋镖诅咒 校园恐怖 恐怖 因果" data-search="恶有恶报 泰国 电影 2026 恐怖 / 因果 佛牌, 降头, 霸凌者, 回旋镖诅咒, 校园恐怖 校园霸凌者将受诅咒佛牌塞进受害者书包，第二天自己全家口吐佛经而亡。">
+  <a class="poster-link" href="./movie-615.html" aria-label="观看恶有恶报">
+    <img src="./15.jpg" alt="恶有恶报" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-615.html">恶有恶报</a>
+    <p class="movie-meta">2026 · 泰国 · 电影</p>
+    <p class="movie-one-line">校园霸凌者将受诅咒佛牌塞进受害者书包，第二天自己全家口吐佛经而亡。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">因果</span>
+          <span class="chip">佛牌</span>
+          <span class="chip">降头</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="纵横鬼门关" data-region="中国香港" data-type="电影" data-year="1998" data-tags="冥界 警匪 道士 枪战 卧底 阴阳眼 动作 恐怖 奇幻" data-search="纵横鬼门关 中国香港 电影 1998 动作, 恐怖, 奇幻 冥界, 警匪, 道士, 枪战, 卧底, 阴阳眼 一个有阴阳眼的卧底警察，死后在鬼门关前被黑帮老大收编，成为冥界“鬼警”。">
+  <a class="poster-link" href="./movie-628.html" aria-label="观看纵横鬼门关">
+    <img src="./28.jpg" alt="纵横鬼门关" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-628.html">纵横鬼门关</a>
+    <p class="movie-meta">1998 · 中国香港 · 电影</p>
+    <p class="movie-one-line">一个有阴阳眼的卧底警察，死后在鬼门关前被黑帮老大收编，成为冥界“鬼警”。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">恐怖</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">冥界</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="白发" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="白发 遗愿 母女 代际 染发 剧情 家庭" data-search="白发 中国大陆 电影 2024 剧情，家庭 白发，遗愿，母女，代际，染发 45岁的女儿第一次看到母亲的白发根，才发现母亲已患阿尔茨海默症三年，而她的遗愿清单里只有一条“染一次黑发”。">
+  <a class="poster-link" href="./movie-629.html" aria-label="观看白发">
+    <img src="./29.jpg" alt="白发" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-629.html">白发</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">45岁的女儿第一次看到母亲的白发根，才发现母亲已患阿尔茨海默症三年，而她的遗愿清单里只有一条“染一次黑发”。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">白发</span>
+          <span class="chip">遗愿</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="魔王复活" data-region="日本" data-type="电影" data-year="2023" data-tags="勇者与魔王 反转 废柴 奇幻冒险" data-search="魔王复活 日本 电影 2023 奇幻冒险 勇者与魔王, 反转, 废柴 勇者队伍千辛万苦杀死了魔王，却发现魔王每隔百年复活是假的，但这次它真的活了。">
+  <a class="poster-link" href="./movie-639.html" aria-label="观看魔王复活">
+    <img src="./39.jpg" alt="魔王复活" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-639.html">魔王复活</a>
+    <p class="movie-meta">2023 · 日本 · 电影</p>
+    <p class="movie-one-line">勇者队伍千辛万苦杀死了魔王，却发现魔王每隔百年复活是假的，但这次它真的活了。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻冒险</span>
+          <span class="chip">勇者与魔王</span>
+          <span class="chip">反转</span>
+          <span class="chip">废柴</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="电波袭击" data-region="美国" data-type="电影" data-year="2027" data-tags="脑控武器 反恐 城市巷战 科幻 动作 惊悚" data-search="电波袭击 美国 电影 2027 科幻 / 动作 / 惊悚 脑控武器、反恐、城市巷战 恐怖分子用可编程电波让全城人的手机同时爆炸，前信号情报员是唯一能反向追踪信号源头的人。">
+  <a class="poster-link" href="./movie-640.html" aria-label="观看电波袭击">
+    <img src="./40.jpg" alt="电波袭击" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-640.html">电波袭击</a>
+    <p class="movie-meta">2027 · 美国 · 电影</p>
+    <p class="movie-one-line">恐怖分子用可编程电波让全城人的手机同时爆炸，前信号情报员是唯一能反向追踪信号源头的人。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">动作</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">脑控武器</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="侏儒流氓" data-region="德国" data-type="电影" data-year="2026" data-tags="小人物犯罪 社会底层 荒诞 多线叙事 犯罪 黑色幽默 剧情" data-search="侏儒流氓 德国 电影 2026 犯罪 / 黑色幽默 / 剧情 小人物犯罪, 社会底层, 荒诞, 多线叙事 一个侏儒、一个失语症大块头和一个老骗子，组成了柏林最荒诞的盗窃团伙。">
+  <a class="poster-link" href="./movie-641.html" aria-label="观看侏儒流氓">
+    <img src="./41.jpg" alt="侏儒流氓" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-641.html">侏儒流氓</a>
+    <p class="movie-meta">2026 · 德国 · 电影</p>
+    <p class="movie-one-line">一个侏儒、一个失语症大块头和一个老骗子，组成了柏林最荒诞的盗窃团伙。</p>
+    <div class="movie-chips">
+      <span class="chip">犯罪</span>
+          <span class="chip">黑色幽默</span>
+          <span class="chip">剧情</span>
+          <span class="chip">小人物犯罪</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="歪爱时代" data-region="泰国" data-type="电视剧" data-year="2022" data-tags="BL 学霸与学渣 假戏真做 社团 搞笑 爱情 喜剧 青春" data-search="歪爱时代 泰国 电视剧 2022 爱情、喜剧、青春 BL、学霸与学渣、假戏真做、社团、搞笑 建筑系学霸为了拿奖学金，被迫和戏剧系的“校草渣男”组队参加情侣综艺，结果假情侣变成了真纠缠。">
+  <a class="poster-link" href="./movie-656.html" aria-label="观看歪爱时代">
+    <img src="./56.jpg" alt="歪爱时代" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-656.html">歪爱时代</a>
+    <p class="movie-meta">2022 · 泰国 · 电视剧</p>
+    <p class="movie-one-line">建筑系学霸为了拿奖学金，被迫和戏剧系的“校草渣男”组队参加情侣综艺，结果假情侣变成了真纠缠。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">青春</span>
+          <span class="chip">BL</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="假圣诞老人" data-region="英国" data-type="电影" data-year="2022" data-tags="圣诞 替代 温暖 喜剧 奇幻" data-search="假圣诞老人 英国 电影 2022 喜剧，奇幻 圣诞，替代，温暖 一个落魄小偷扮成商场圣诞老人，却发现自己真的拥有了圣诞魔法。">
+  <a class="poster-link" href="./movie-664.html" aria-label="观看假圣诞老人">
+    <img src="./64.jpg" alt="假圣诞老人" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-664.html">假圣诞老人</a>
+    <p class="movie-meta">2022 · 英国 · 电影</p>
+    <p class="movie-one-line">一个落魄小偷扮成商场圣诞老人，却发现自己真的拥有了圣诞魔法。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">圣诞</span>
+          <span class="chip">替代</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="不倒翁的奇幻旅程" data-region="韩国" data-type="电影" data-year="2025" data-tags="不倒翁 轮回 亲情 治愈 奇幻 剧情 家庭" data-search="不倒翁的奇幻旅程 韩国 电影 2025 奇幻 / 剧情 / 家庭 不倒翁, 轮回, 亲情, 治愈 一个不倒翁里住着三个转世的灵魂，他们必须让持有它的孩子笑出来，才能进入下一世。">
+  <a class="poster-link" href="./movie-672.html" aria-label="观看不倒翁的奇幻旅程">
+    <img src="./72.jpg" alt="不倒翁的奇幻旅程" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-672.html">不倒翁的奇幻旅程</a>
+    <p class="movie-meta">2025 · 韩国 · 电影</p>
+    <p class="movie-one-line">一个不倒翁里住着三个转世的灵魂，他们必须让持有它的孩子笑出来，才能进入下一世。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">不倒翁</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="西线平魔" data-region="美国" data-type="电影" data-year="2026" data-tags="一战 地道战 工兵连 幽闭恐惧 战争 惊悚" data-search="西线平魔 美国 电影 2026 战争 / 惊悚 一战, 地道战, 工兵连, 幽闭恐惧 1917年西线，一名德军工兵和被俘的英国矿工，被活埋在地下16米的坑道里。">
+  <a class="poster-link" href="./movie-680.html" aria-label="观看西线平魔">
+    <img src="./80.jpg" alt="西线平魔" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-680.html">西线平魔</a>
+    <p class="movie-meta">2026 · 美国 · 电影</p>
+    <p class="movie-one-line">1917年西线，一名德军工兵和被俘的英国矿工，被活埋在地下16米的坑道里。</p>
+    <div class="movie-chips">
+      <span class="chip">战争</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">一战</span>
+          <span class="chip">地道战</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="校园时空惊魂记" data-region="美国" data-type="电影" data-year="2026" data-tags="时间循环 校园 密室逃脱 烧脑 科幻 恐怖 悬疑" data-search="校园时空惊魂记 美国 电影 2026 科幻 / 恐怖 / 悬疑 时间循环，校园，密室逃脱，烧脑 七个学生在废弃学校醒来，发现每十分钟就会有一人“消失”，只有破解学校的旧案才能中断循环。">
+  <a class="poster-link" href="./movie-683.html" aria-label="观看校园时空惊魂记">
+    <img src="./83.jpg" alt="校园时空惊魂记" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-683.html">校园时空惊魂记</a>
+    <p class="movie-meta">2026 · 美国 · 电影</p>
+    <p class="movie-one-line">七个学生在废弃学校醒来，发现每十分钟就会有一人“消失”，只有破解学校的旧案才能中断循环。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">恐怖</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">时间循环</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="金矿" data-region="加拿大" data-type="剧集" data-year="2025" data-tags="淘金热 生存 人性 荒原 惊悚 剧情" data-search="金矿 加拿大 剧集 2025 惊悚，剧情 淘金热，生存，人性，荒原 五个破产的陌生人在育空地区的冰原上发现了一座金矿，同时也开启了人性崩塌的倒计时。">
+  <a class="poster-link" href="./movie-686.html" aria-label="观看金矿">
+    <img src="./86.jpg" alt="金矿" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-686.html">金矿</a>
+    <p class="movie-meta">2025 · 加拿大 · 剧集</p>
+    <p class="movie-one-line">五个破产的陌生人在育空地区的冰原上发现了一座金矿，同时也开启了人性崩塌的倒计时。</p>
+    <div class="movie-chips">
+      <span class="chip">惊悚</span>
+          <span class="chip">剧情</span>
+          <span class="chip">淘金热</span>
+          <span class="chip">生存</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="优良教师争夺战" data-region="韩国" data-type="剧集" data-year="2025" data-tags="教育 职场 黑色幽默 家长群 剧情 喜剧" data-search="优良教师争夺战 韩国 剧集 2025 剧情 / 喜剧 教育, 职场, 黑色幽默, 家长群 一所重点高中突然出现一个“特级教师”编制，所有老师撕下伪装，展开了一场疯狂的职场宫心计。">
+  <a class="poster-link" href="./movie-690.html" aria-label="观看优良教师争夺战">
+    <img src="./90.jpg" alt="优良教师争夺战" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-690.html">优良教师争夺战</a>
+    <p class="movie-meta">2025 · 韩国 · 剧集</p>
+    <p class="movie-one-line">一所重点高中突然出现一个“特级教师”编制，所有老师撕下伪装，展开了一场疯狂的职场宫心计。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">教育</span>
+          <span class="chip">职场</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="家庭档案" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="家庭录像 记忆 弑亲 伪纪录片 剧情 悬疑" data-search="家庭档案 中国大陆 电影 2026 剧情, 悬疑 家庭录像, 记忆, 弑亲, 伪纪录片 整理母亲遗物时，儿子发现了一箱家庭录像带，里面记录的全是已被他遗忘的家庭暴力。">
+  <a class="poster-link" href="./movie-698.html" aria-label="观看家庭档案">
+    <img src="./98.jpg" alt="家庭档案" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-698.html">家庭档案</a>
+    <p class="movie-meta">2026 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">整理母亲遗物时，儿子发现了一箱家庭录像带，里面记录的全是已被他遗忘的家庭暴力。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">家庭录像</span>
+          <span class="chip">记忆</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="幽谷" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="湘西赶尸 山野奇谈 姐妹情深 悬疑 山村惊悚" data-search="幽谷 中国大陆 电影 2025 悬疑 / 山村惊悚 湘西赶尸, 山野奇谈, 姐妹情深 为了寻找失踪十年的姐姐，都市白领回到湘西老家，却发现了山谷里能复制活人执念的吞噬者。">
+  <a class="poster-link" href="./movie-700.html" aria-label="观看幽谷">
+    <img src="./100.jpg" alt="幽谷" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-700.html">幽谷</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">为了寻找失踪十年的姐姐，都市白领回到湘西老家，却发现了山谷里能复制活人执念的吞噬者。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">山村惊悚</span>
+          <span class="chip">湘西赶尸</span>
+          <span class="chip">山野奇谈</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="比佛利山超级警探2" data-region="美国" data-type="电影" data-year="1987" data-tags="经典续集 艾迪·墨菲 枪战 嘴炮 喜剧 动作 犯罪" data-search="比佛利山超级警探2 美国 电影 1987 喜剧, 动作, 犯罪 经典续集, 艾迪·墨菲, 枪战, 嘴炮 底特律最不守规矩的警探艾索再次来到比佛利山，这次他要为长官复仇。">
+  <a class="poster-link" href="./movie-708.html" aria-label="观看比佛利山超级警探2">
+    <img src="./108.jpg" alt="比佛利山超级警探2" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-708.html">比佛利山超级警探2</a>
+    <p class="movie-meta">1987 · 美国 · 电影</p>
+    <p class="movie-one-line">底特律最不守规矩的警探艾索再次来到比佛利山，这次他要为长官复仇。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">动作</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">经典续集</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="命中注定稀罕你" data-region="中国大陆" data-type="电视剧" data-year="2021" data-tags="契约婚姻 欢喜冤家 先婚后爱 甜宠 爱情 喜剧" data-search="命中注定稀罕你 中国大陆 电视剧 2021 爱情，喜剧 契约婚姻，欢喜冤家，先婚后爱，甜宠 落魄女保镖被迫伪装成霸道总裁的契约妻子，不仅要斗小三，还要防着男主那颗早已沦陷的心。">
+  <a class="poster-link" href="./movie-713.html" aria-label="观看命中注定稀罕你">
+    <img src="./113.jpg" alt="命中注定稀罕你" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-713.html">命中注定稀罕你</a>
+    <p class="movie-meta">2021 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">落魄女保镖被迫伪装成霸道总裁的契约妻子，不仅要斗小三，还要防着男主那颗早已沦陷的心。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">契约婚姻</span>
+          <span class="chip">欢喜冤家</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="太空终界第三季" data-region="美国" data-type="剧集" data-year="2026" data-tags="宇宙终界 平行地球 牺牲结局 科幻 动画 冒险" data-search="太空终界第三季 美国 剧集 2026 科幻 / 动画 / 冒险 宇宙终界, 平行地球, 牺牲结局 主角团终于进入太空终界，发现那里不是虚空，而是所有被消灭的平行地球的垃圾场。">
+  <a class="poster-link" href="./movie-716.html" aria-label="观看太空终界第三季">
+    <img src="./116.jpg" alt="太空终界第三季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-716.html">太空终界第三季</a>
+    <p class="movie-meta">2026 · 美国 · 剧集</p>
+    <p class="movie-one-line">主角团终于进入太空终界，发现那里不是虚空，而是所有被消灭的平行地球的垃圾场。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">动画</span>
+          <span class="chip">冒险</span>
+          <span class="chip">宇宙终界</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="魔力女战士" data-region="美国" data-type="电影" data-year="2026" data-tags="女武神 近未来 生物武器 反英雄 觉醒 动作 科幻 超级英雄" data-search="魔力女战士 美国 电影 2026 动作 / 科幻 / 超级英雄 女武神, 近未来, 生物武器, 反英雄, 觉醒 一个被基因改造到没有痛觉的女战士，在发现自己的“战斗快感”其实是一种被人为植入的毒瘾后，开始追杀自己的创造者。">
+  <a class="poster-link" href="./movie-734.html" aria-label="观看魔力女战士">
+    <img src="./134.jpg" alt="魔力女战士" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-734.html">魔力女战士</a>
+    <p class="movie-meta">2026 · 美国 · 电影</p>
+    <p class="movie-one-line">一个被基因改造到没有痛觉的女战士，在发现自己的“战斗快感”其实是一种被人为植入的毒瘾后，开始追杀自己的创造者。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">科幻</span>
+          <span class="chip">超级英雄</span>
+          <span class="chip">女武神</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="小芽的奇幻人生" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="奇幻 儿童 成长 亲情 想象力 奇幻 家庭 儿童" data-search="小芽的奇幻人生 中国大陆 电影 2024 奇幻 / 家庭 / 儿童 奇幻, 儿童, 成长, 亲情, 想象力 内向的小学生偶然得到一颗会发光的种子，种出的植物不仅能说话，还能带她进入画中的世界。">
+  <a class="poster-link" href="./movie-743.html" aria-label="观看小芽的奇幻人生">
+    <img src="./143.jpg" alt="小芽的奇幻人生" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-743.html">小芽的奇幻人生</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">内向的小学生偶然得到一颗会发光的种子，种出的植物不仅能说话，还能带她进入画中的世界。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">家庭</span>
+          <span class="chip">儿童</span>
+          <span class="chip">成长</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="假水果工厂" data-region="日本" data-type="电影" data-year="2026" data-tags="仿真食品 记忆替换 家族秘密 怀旧 悬疑 奇幻 伦理" data-search="假水果工厂 日本 电影 2026 悬疑, 奇幻, 伦理 仿真食品, 记忆替换, 家族秘密, 怀旧 一家制作“假水果”的工厂，能将任何人的记忆变成永不腐烂的标本，直到有一天，工人在一颗柠檬里发现了活人的指纹。">
+  <a class="poster-link" href="./movie-751.html" aria-label="观看假水果工厂">
+    <img src="./1.jpg" alt="假水果工厂" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-751.html">假水果工厂</a>
+    <p class="movie-meta">2026 · 日本 · 电影</p>
+    <p class="movie-one-line">一家制作“假水果”的工厂，能将任何人的记忆变成永不腐烂的标本，直到有一天，工人在一颗柠檬里发现了活人的指纹。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">伦理</span>
+          <span class="chip">仿真食品</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="香车绮梦" data-region="美国" data-type="剧集" data-year="2023" data-tags="汽车 修复 女性 创业 治愈 剧情 喜剧" data-search="香车绮梦 美国 剧集 2023 剧情 / 喜剧 汽车 / 修复 / 女性 / 创业 / 治愈 前华尔街女王破产后回到老家，被迫接手父亲的破旧修车厂，才发现这里比华尔街更凶险。">
+  <a class="poster-link" href="./movie-768.html" aria-label="观看香车绮梦">
+    <img src="./18.jpg" alt="香车绮梦" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-768.html">香车绮梦</a>
+    <p class="movie-meta">2023 · 美国 · 剧集</p>
+    <p class="movie-one-line">前华尔街女王破产后回到老家，被迫接手父亲的破旧修车厂，才发现这里比华尔街更凶险。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">汽车</span>
+          <span class="chip">修复</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="电影眼漫游中国" data-region="英国 / 中国" data-type="纪录片" data-year="2024" data-tags="历史影像 社会变迁 老北京 默片修复 纪录" data-search="电影眼漫游中国 英国 / 中国 纪录片 2024 纪录 历史影像, 社会变迁, 老北京, 默片修复 通过一批从未公开的1920年代英国私人胶片，重新凝视一个色彩斑斓又即将消逝的旧中国。">
+  <a class="poster-link" href="./movie-773.html" aria-label="观看电影眼漫游中国">
+    <img src="./23.jpg" alt="电影眼漫游中国" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-773.html">电影眼漫游中国</a>
+    <p class="movie-meta">2024 · 英国 / 中国 · 纪录片</p>
+    <p class="movie-one-line">通过一批从未公开的1920年代英国私人胶片，重新凝视一个色彩斑斓又即将消逝的旧中国。</p>
+    <div class="movie-chips">
+      <span class="chip">纪录</span>
+          <span class="chip">历史影像</span>
+          <span class="chip">社会变迁</span>
+          <span class="chip">老北京</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="我是幸运儿" data-region="中国大陆" data-type="剧集" data-year="2024" data-tags="都市 治愈 反套路 爱情 家庭 剧情" data-search="我是幸运儿 中国大陆 剧集 2024 爱情, 家庭, 剧情 都市, 治愈, 反套路 所有人都说她嫁给了“渣男”是世纪大不幸，她却笑嘻嘻地说：能遇见他，是我最大的幸运。">
+  <a class="poster-link" href="./movie-789.html" aria-label="观看我是幸运儿">
+    <img src="./39.jpg" alt="我是幸运儿" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-789.html">我是幸运儿</a>
+    <p class="movie-meta">2024 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">所有人都说她嫁给了“渣男”是世纪大不幸，她却笑嘻嘻地说：能遇见他，是我最大的幸运。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">剧情</span>
+          <span class="chip">都市</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="渡假留香" data-region="泰国" data-type="电影" data-year="2017" data-tags="海岛 气味 回忆 短暂邂逅 爱情 剧情" data-search="渡假留香 泰国 电影 2017 爱情, 剧情 海岛, 气味, 回忆, 短暂邂逅 一个失意的调香师在泰国小岛度假时，爱上了一个每天只出现一小时的神秘女人。">
+  <a class="poster-link" href="./movie-790.html" aria-label="观看渡假留香">
+    <img src="./40.jpg" alt="渡假留香" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-790.html">渡假留香</a>
+    <p class="movie-meta">2017 · 泰国 · 电影</p>
+    <p class="movie-one-line">一个失意的调香师在泰国小岛度假时，爱上了一个每天只出现一小时的神秘女人。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">剧情</span>
+          <span class="chip">海岛</span>
+          <span class="chip">气味</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="谍战之特殊较量" data-region="中国内地" data-type="剧集" data-year="2024" data-tags="双面间谍 智力博弈 冷战时期间谍 高智商 反转 悬疑 谍战 历史" data-search="谍战之特殊较量 中国内地 剧集 2024 悬疑 / 谍战 / 历史 双面间谍, 智力博弈, 冷战时期间谍, 高智商, 反转 1960年，一个隐藏在我国西北核基地的台湾特务，发现他的新上级竟然也是双重间谍，两人开始了一场彼此试探的生死棋局。">
+  <a class="poster-link" href="./movie-818.html" aria-label="观看谍战之特殊较量">
+    <img src="./68.jpg" alt="谍战之特殊较量" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-818.html">谍战之特殊较量</a>
+    <p class="movie-meta">2024 · 中国内地 · 剧集</p>
+    <p class="movie-one-line">1960年，一个隐藏在我国西北核基地的台湾特务，发现他的新上级竟然也是双重间谍，两人开始了一场彼此试探的生死棋局。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">谍战</span>
+          <span class="chip">历史</span>
+          <span class="chip">双面间谍</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="超能智多星" data-region="中国大陆" data-type="电影" data-year="2014" data-tags="小学生 外星项链 超能力 校园搞笑 喜剧 科幻 家庭" data-search="超能智多星 中国大陆 电影 2014 喜剧 / 科幻 / 家庭 小学生, 外星项链, 超能力, 校园搞笑 四个小学生捡到外星项链后获得奇葩超能力，用它们来解决作业和校霸，却引来星际追兵。">
+  <a class="poster-link" href="./movie-827.html" aria-label="观看超能智多星">
+    <img src="./77.jpg" alt="超能智多星" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-827.html">超能智多星</a>
+    <p class="movie-meta">2014 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">四个小学生捡到外星项链后获得奇葩超能力，用它们来解决作业和校霸，却引来星际追兵。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">科幻</span>
+          <span class="chip">家庭</span>
+          <span class="chip">小学生</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="入伍前的疯狂" data-region="韩国" data-type="电影" data-year="2012" data-tags="兵役 告别之旅 兄弟情 公路喜剧 喜剧 青春 友情" data-search="入伍前的疯狂 韩国 电影 2012 喜剧、青春、友情 兵役、告别之旅、兄弟情、公路喜剧 离入伍只剩一周，六个好兄弟决定进行一场“只有男人才能懂”的荒唐全国冒险，只为不留遗憾。">
+  <a class="poster-link" href="./movie-839.html" aria-label="观看入伍前的疯狂">
+    <img src="./89.jpg" alt="入伍前的疯狂" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-839.html">入伍前的疯狂</a>
+    <p class="movie-meta">2012 · 韩国 · 电影</p>
+    <p class="movie-one-line">离入伍只剩一周，六个好兄弟决定进行一场“只有男人才能懂”的荒唐全国冒险，只为不留遗憾。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">青春</span>
+          <span class="chip">友情</span>
+          <span class="chip">兵役</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="斯普利特的美妙夜晚" data-region="克罗地亚" data-type="电影" data-year="2019" data-tags="亚得里亚海 一夜情 中年危机 爱情 文艺" data-search="斯普利特的美妙夜晚 克罗地亚 电影 2019 爱情，文艺 亚得里亚海，一夜情，中年危机 克罗地亚斯普利特的海边，一对离婚多年的中年男女偶然重逢，他们决定用一晚来清算二十年的爱恨。">
+  <a class="poster-link" href="./movie-841.html" aria-label="观看斯普利特的美妙夜晚">
+    <img src="./91.jpg" alt="斯普利特的美妙夜晚" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-841.html">斯普利特的美妙夜晚</a>
+    <p class="movie-meta">2019 · 克罗地亚 · 电影</p>
+    <p class="movie-one-line">克罗地亚斯普利特的海边，一对离婚多年的中年男女偶然重逢，他们决定用一晚来清算二十年的爱恨。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">文艺</span>
+          <span class="chip">亚得里亚海</span>
+          <span class="chip">一夜情</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="导演狂想曲" data-region="美国" data-type="电影" data-year="2025" data-tags="伪传记 独立电影 片场灾难 艺术与现实 喜剧 剧情" data-search="导演狂想曲 美国 电影 2025 喜剧 / 剧情 伪传记, 独立电影, 片场灾难, 艺术与现实 一个从未拍过电影的超市收银员，骗来三百万美金，雇了一群失业演员，要拍出“史上最伟大的烂片”。">
+  <a class="poster-link" href="./movie-851.html" aria-label="观看导演狂想曲">
+    <img src="./101.jpg" alt="导演狂想曲" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-851.html">导演狂想曲</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">一个从未拍过电影的超市收银员，骗来三百万美金，雇了一群失业演员，要拍出“史上最伟大的烂片”。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">剧情</span>
+          <span class="chip">伪传记</span>
+          <span class="chip">独立电影</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="五个相扑的少年电影版" data-region="日本" data-type="电影" data-year="2022" data-tags="相扑 废柴联盟 热血 传统文化 逆袭 运动 喜剧 励志" data-search="五个相扑的少年电影版 日本 电影 2022 运动， 喜剧， 励志 相扑， 废柴联盟， 热血， 传统文化， 逆袭 面临废部的大学相扑社只剩五名成员：一个宅男、一个胖子、一个娘娘腔、一个留学生和一个老头。">
+  <a class="poster-link" href="./movie-855.html" aria-label="观看五个相扑的少年电影版">
+    <img src="./105.jpg" alt="五个相扑的少年电影版" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-855.html">五个相扑的少年电影版</a>
+    <p class="movie-meta">2022 · 日本 · 电影</p>
+    <p class="movie-one-line">面临废部的大学相扑社只剩五名成员：一个宅男、一个胖子、一个娘娘腔、一个留学生和一个老头。</p>
+    <div class="movie-chips">
+      <span class="chip">运动</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">励志</span>
+          <span class="chip">相扑</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="酷爱电影的庞波小姐" data-region="日本" data-type="电影" data-year="2023" data-tags="制片厂 梦想 疯狂导演 喜剧 剧情" data-search="酷爱电影的庞波小姐 日本 电影 2023 喜剧 / 剧情 制片厂, 梦想, 疯狂导演 天才制片人庞波小姐给新人导演的预算是1亿日元、期限是1个月，条件是必须拍出“让人哭出来的烂片”。">
+  <a class="poster-link" href="./movie-861.html" aria-label="观看酷爱电影的庞波小姐">
+    <img src="./111.jpg" alt="酷爱电影的庞波小姐" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-861.html">酷爱电影的庞波小姐</a>
+    <p class="movie-meta">2023 · 日本 · 电影</p>
+    <p class="movie-one-line">天才制片人庞波小姐给新人导演的预算是1亿日元、期限是1个月，条件是必须拍出“让人哭出来的烂片”。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">剧情</span>
+          <span class="chip">制片厂</span>
+          <span class="chip">梦想</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="伦敦生活" data-region="英国" data-type="剧集" data-year="2016" data-tags="黑色幽默 第四面墙 女性困境 都市孤独 剧情 喜剧" data-search="伦敦生活 英国 剧集 2016 剧情 / 喜剧 黑色幽默, 第四面墙, 女性困境, 都市孤独 一个总对着镜头吐槽生活的伦敦女孩，试图修复与姐姐的关系，同时经营一家倒闭边缘的豚鼠主题咖啡馆。">
+  <a class="poster-link" href="./movie-873.html" aria-label="观看伦敦生活">
+    <img src="./123.jpg" alt="伦敦生活" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-873.html">伦敦生活</a>
+    <p class="movie-meta">2016 · 英国 · 剧集</p>
+    <p class="movie-one-line">一个总对着镜头吐槽生活的伦敦女孩，试图修复与姐姐的关系，同时经营一家倒闭边缘的豚鼠主题咖啡馆。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">黑色幽默</span>
+          <span class="chip">第四面墙</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="僵尸坟场" data-region="香港" data-type="电影" data-year="2030" data-tags="茅山术 丧尸危机 中西合璧 师徒情深 恐怖 动作 僵尸" data-search="僵尸坟场 香港 电影 2030 恐怖, 动作, 僵尸 茅山术, 丧尸危机, 中西合璧, 师徒情深 城市爆发丧尸病毒，最后一个茅山道士和他的洋徒弟，用符咒和加特林守住义庄。">
+  <a class="poster-link" href="./movie-882.html" aria-label="观看僵尸坟场">
+    <img src="./132.jpg" alt="僵尸坟场" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-882.html">僵尸坟场</a>
+    <p class="movie-meta">2030 · 香港 · 电影</p>
+    <p class="movie-one-line">城市爆发丧尸病毒，最后一个茅山道士和他的洋徒弟，用符咒和加特林守住义庄。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">动作</span>
+          <span class="chip">僵尸</span>
+          <span class="chip">茅山术</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="上帝旨意" data-region="法国" data-type="电影" data-year="2024" data-tags="神迹 村庄 信仰崩塌 集体癔症 剧情 宗教 悬疑" data-search="上帝旨意 法国 电影 2024 剧情, 宗教, 悬疑 神迹, 村庄, 信仰崩塌, 集体癔症 全村同时听到上帝说话，但每个村民听到的内容完全相反。">
+  <a class="poster-link" href="./movie-908.html" aria-label="观看上帝旨意">
+    <img src="./8.jpg" alt="上帝旨意" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-908.html">上帝旨意</a>
+    <p class="movie-meta">2024 · 法国 · 电影</p>
+    <p class="movie-one-line">全村同时听到上帝说话，但每个村民听到的内容完全相反。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">宗教</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">神迹</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="博格对战麦肯罗" data-region="瑞典 / 美国" data-type="电影" data-year="2017" data-tags="网球传奇 宿敌对决 体育精神 传记 运动 剧情" data-search="博格对战麦肯罗 瑞典 / 美国 电影 2017 传记 / 运动 / 剧情 网球传奇, 宿敌对决, 体育精神 1980年温网决赛前夜，冰人博格和坏小子麦肯罗在更衣室隔着一堵墙，各自崩溃又各自站起来。">
+  <a class="poster-link" href="./movie-952.html" aria-label="观看博格对战麦肯罗">
+    <img src="./52.jpg" alt="博格对战麦肯罗" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-952.html">博格对战麦肯罗</a>
+    <p class="movie-meta">2017 · 瑞典 / 美国 · 电影</p>
+    <p class="movie-one-line">1980年温网决赛前夜，冰人博格和坏小子麦肯罗在更衣室隔着一堵墙，各自崩溃又各自站起来。</p>
+    <div class="movie-chips">
+      <span class="chip">传记</span>
+          <span class="chip">运动</span>
+          <span class="chip">剧情</span>
+          <span class="chip">网球传奇</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="塔达斯卜林达传奇国语" data-region="印度" data-type="剧集" data-year="2024" data-tags="史诗 复仇 王朝 国语配音 历史 动作 冒险" data-search="塔达斯卜林达传奇国语 印度 剧集 2024 历史 / 动作 / 冒险 史诗, 复仇, 王朝, 国语配音 被灭门的王子化身流浪剑客，用十年时间集齐五件圣物，只为唤醒沉睡的护国神兽。">
+  <a class="poster-link" href="./movie-956.html" aria-label="观看塔达斯卜林达传奇国语">
+    <img src="./56.jpg" alt="塔达斯卜林达传奇国语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-956.html">塔达斯卜林达传奇国语</a>
+    <p class="movie-meta">2024 · 印度 · 剧集</p>
+    <p class="movie-one-line">被灭门的王子化身流浪剑客，用十年时间集齐五件圣物，只为唤醒沉睡的护国神兽。</p>
+    <div class="movie-chips">
+      <span class="chip">历史</span>
+          <span class="chip">动作</span>
+          <span class="chip">冒险</span>
+          <span class="chip">史诗</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="彩虹制造者" data-region="意大利" data-type="电影" data-year="2024" data-tags="童话 治愈 神秘 小镇 发明家 奇幻 剧情 家庭" data-search="彩虹制造者 意大利 电影 2024 奇幻, 剧情, 家庭 童话, 治愈, 神秘, 小镇, 发明家 一个自闭症男孩发明了一台造彩虹的机器，让灰暗的小镇重新拥有了色彩和希望。">
+  <a class="poster-link" href="./movie-958.html" aria-label="观看彩虹制造者">
+    <img src="./58.jpg" alt="彩虹制造者" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-958.html">彩虹制造者</a>
+    <p class="movie-meta">2024 · 意大利 · 电影</p>
+    <p class="movie-one-line">一个自闭症男孩发明了一台造彩虹的机器，让灰暗的小镇重新拥有了色彩和希望。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">童话</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="234说爱你" data-region="台湾" data-type="电影" data-year="2016" data-tags="都市 三角恋 职场 女性 虐恋 爱情 剧情" data-search="234说爱你 台湾 电影 2016 爱情 / 剧情 都市, 三角恋, 职场, 女性, 虐恋 广告公司文案在234号公寓与两位男人周旋，一个给她面包，一个给她爱情。">
+  <a class="poster-link" href="./movie-972.html" aria-label="观看234说爱你">
+    <img src="./72.jpg" alt="234说爱你" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-972.html">234说爱你</a>
+    <p class="movie-meta">2016 · 台湾 · 电影</p>
+    <p class="movie-one-line">广告公司文案在234号公寓与两位男人周旋，一个给她面包，一个给她爱情。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">剧情</span>
+          <span class="chip">都市</span>
+          <span class="chip">三角恋</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="善意的谎言" data-region="日本" data-type="剧集" data-year="2025" data-tags="温情催泪 人性抉择 翻拍自同名日影 剧情 家庭" data-search="善意的谎言 日本 剧集 2025 剧情 / 家庭 温情催泪, 人性抉择, 翻拍自同名日影 为了保住养老院30位老人的圣诞梦想，社工美咲决定扮演他们心中最想见的那个人。">
+  <a class="poster-link" href="./movie-977.html" aria-label="观看善意的谎言">
+    <img src="./77.jpg" alt="善意的谎言" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-977.html">善意的谎言</a>
+    <p class="movie-meta">2025 · 日本 · 剧集</p>
+    <p class="movie-one-line">为了保住养老院30位老人的圣诞梦想，社工美咲决定扮演他们心中最想见的那个人。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">温情催泪</span>
+          <span class="chip">人性抉择</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="胡巧英告状" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="农村 打官司 普法 现实主义 剧情 喜剧 法律" data-search="胡巧英告状 中国大陆 电影 2025 剧情 / 喜剧 / 法律 农村，打官司，普法，现实主义 村里最泼辣的农妇胡巧英，为了给死去的老母鸡“伸冤”，把全村告上了法庭。">
+  <a class="poster-link" href="./movie-999.html" aria-label="观看胡巧英告状">
+    <img src="./99.jpg" alt="胡巧英告状" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-999.html">胡巧英告状</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">村里最泼辣的农妇胡巧英，为了给死去的老母鸡“伸冤”，把全村告上了法庭。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">法律</span>
+          <span class="chip">农村</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="屯门色魔" data-region="香港" data-type="电影" data-year="2026" data-tags="真实案件改编 连环杀手 警匪对峙 心理变态 港式暴力美学 犯罪 惊悚 悬疑" data-search="屯门色魔 香港 电影 2026 犯罪, 惊悚, 悬疑 真实案件改编, 连环杀手, 警匪对峙, 心理变态, 港式暴力美学 九十年代震惊香港的连环奸杀案重现，一个沉默的出租车司机，在屯门夜色中化身恶魔。">
+  <a class="poster-link" href="./movie-1006.html" aria-label="观看屯门色魔">
+    <img src="./106.jpg" alt="屯门色魔" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1006.html">屯门色魔</a>
+    <p class="movie-meta">2026 · 香港 · 电影</p>
+    <p class="movie-one-line">九十年代震惊香港的连环奸杀案重现，一个沉默的出租车司机，在屯门夜色中化身恶魔。</p>
+    <div class="movie-chips">
+      <span class="chip">犯罪</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">真实案件改编</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="前男友行不行" data-region="中国台湾" data-type="剧集" data-year="2025" data-tags="前任 职场 破冰 搞笑 都市 爱情 喜剧" data-search="前男友行不行 中国台湾 剧集 2025 爱情, 喜剧 前任, 职场, 破冰, 搞笑, 都市 婚礼策划师女主，接连服务的三位新娘，未婚夫都是她的同一位毒舌前男友。">
+  <a class="poster-link" href="./movie-1009.html" aria-label="观看前男友行不行">
+    <img src="./109.jpg" alt="前男友行不行" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1009.html">前男友行不行</a>
+    <p class="movie-meta">2025 · 中国台湾 · 剧集</p>
+    <p class="movie-one-line">婚礼策划师女主，接连服务的三位新娘，未婚夫都是她的同一位毒舌前男友。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">前任</span>
+          <span class="chip">职场</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="爱欲四重奏 2" data-region="意大利" data-type="剧集 / 短片集" data-year="2024" data-tags="单元剧 现代情感 意大利风情 尺度 心理描写 爱情 剧情" data-search="爱欲四重奏 2 意大利 剧集 / 短片集 2024 爱情，剧情 单元剧，现代情感，意大利风情，尺度，心理描写 四个关于爱、欲望与背叛的短片，在罗马的炎热夏夜里，交织成一曲无法入睡的灵魂交响乐。">
+  <a class="poster-link" href="./movie-1010.html" aria-label="观看爱欲四重奏 2">
+    <img src="./110.jpg" alt="爱欲四重奏 2" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1010.html">爱欲四重奏 2</a>
+    <p class="movie-meta">2024 · 意大利 · 剧集 / 短片集</p>
+    <p class="movie-one-line">四个关于爱、欲望与背叛的短片，在罗马的炎热夏夜里，交织成一曲无法入睡的灵魂交响乐。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">剧情</span>
+          <span class="chip">单元剧</span>
+          <span class="chip">现代情感</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="春草" data-region="中国" data-type="电影" data-year="2023" data-tags="女性 农村 坚韧 剧情 家庭" data-search="春草 中国 电影 2023 剧情 / 家庭 女性, 农村, 坚韧 七十岁的母亲春草，为了帮女儿还清房贷，决定独自进城找工作。">
+  <a class="poster-link" href="./movie-1012.html" aria-label="观看春草">
+    <img src="./112.jpg" alt="春草" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1012.html">春草</a>
+    <p class="movie-meta">2023 · 中国 · 电影</p>
+    <p class="movie-one-line">七十岁的母亲春草，为了帮女儿还清房贷，决定独自进城找工作。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">女性</span>
+          <span class="chip">农村</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="西厢艳迹" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="元曲改编 戏中戏 女性视角 权谋 爱情 古装 悬疑" data-search="西厢艳迹 中国大陆 电影 2024 爱情, 古装, 悬疑 元曲改编, 戏中戏, 女性视角, 权谋 当《西厢记》的排演现场接连发生“意外死亡”，戏班女编剧发现，她笔下的情诗正一一对应现实中未公开的皇室丑闻。">
+  <a class="poster-link" href="./movie-1024.html" aria-label="观看西厢艳迹">
+    <img src="./124.jpg" alt="西厢艳迹" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1024.html">西厢艳迹</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">当《西厢记》的排演现场接连发生“意外死亡”，戏班女编剧发现，她笔下的情诗正一一对应现实中未公开的皇室丑闻。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">古装</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">元曲改编</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="爱情魔力" data-region="韩国" data-type="剧集" data-year="2022" data-tags="魔法香水 契约恋爱 失忆 霸道总裁 奇幻 爱情 喜剧" data-search="爱情魔力 韩国 剧集 2022 奇幻， 爱情， 喜剧 魔法香水， 契约恋爱， 失忆， 霸道总裁 落魄调香师调出能让人“只爱你七天”的香水，自己试用后竟对死对头总裁疯狂心动。">
+  <a class="poster-link" href="./movie-1036.html" aria-label="观看爱情魔力">
+    <img src="./136.jpg" alt="爱情魔力" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1036.html">爱情魔力</a>
+    <p class="movie-meta">2022 · 韩国 · 剧集</p>
+    <p class="movie-one-line">落魄调香师调出能让人“只爱你七天”的香水，自己试用后竟对死对头总裁疯狂心动。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">爱情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">魔法香水</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="十日游戏" data-region="中国大陆" data-type="剧集" data-year="2024" data-tags="绑架 反转 谎言 局中局 悬疑 犯罪 剧情" data-search="十日游戏 中国大陆 剧集 2024 悬疑 / 犯罪 / 剧情 绑架，反转，谎言，局中局 为还赌债，她策划假绑架向富豪父亲要赎金，但第十天醒来，绑匪真的死了。">
+  <a class="poster-link" href="./movie-1042.html" aria-label="观看十日游戏">
+    <img src="./142.jpg" alt="十日游戏" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1042.html">十日游戏</a>
+    <p class="movie-meta">2024 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">为还赌债，她策划假绑架向富豪父亲要赎金，但第十天醒来，绑匪真的死了。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">剧情</span>
+          <span class="chip">绑架</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="鬼马神偷" data-region="香港" data-type="电影" data-year="1989" data-tags="乌龙搭档 偷盗 反转 港式幽默 追车 喜剧 动作 犯罪" data-search="鬼马神偷 香港 电影 1989 喜剧 / 动作 / 犯罪 乌龙搭档, 偷盗, 反转, 港式幽默, 追车 一对互不相识的鬼马小贼被黑帮栽赃，却在互相算计中意外偷回了整座城市的信任。">
+  <a class="poster-link" href="./movie-1054.html" aria-label="观看鬼马神偷">
+    <img src="./4.jpg" alt="鬼马神偷" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1054.html">鬼马神偷</a>
+    <p class="movie-meta">1989 · 香港 · 电影</p>
+    <p class="movie-one-line">一对互不相识的鬼马小贼被黑帮栽赃，却在互相算计中意外偷回了整座城市的信任。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">动作</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">乌龙搭档</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="血缘寻亲" data-region="中国大陆" data-type="电视剧" data-year="2024" data-tags="寻亲 打拐 社会现实 催泪 剧情 家庭" data-search="血缘寻亲 中国大陆 电视剧 2024 剧情, 家庭 寻亲, 打拐, 社会现实, 催泪 四个因孩子被拐而破碎的家庭，为了寻找血脉，组成“寻亲团”踏上了一条充满绝望与希望的漫漫长路。">
+  <a class="poster-link" href="./movie-1057.html" aria-label="观看血缘寻亲">
+    <img src="./7.jpg" alt="血缘寻亲" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1057.html">血缘寻亲</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">四个因孩子被拐而破碎的家庭，为了寻找血脉，组成“寻亲团”踏上了一条充满绝望与希望的漫漫长路。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">寻亲</span>
+          <span class="chip">打拐</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="大野八条龙" data-region="中国香港" data-type="电影" data-year="2026" data-tags="黑帮 卧底 荒诞 代号乌龙 犯罪 动作 黑色喜剧" data-search="大野八条龙 中国香港 电影 2026 犯罪，动作，黑色喜剧 黑帮，卧底，荒诞，代号乌龙 八个代号带“龙”的社团大佬一夜之间被神秘人“大野”约进同一间茶餐厅，却发现只有七把椅子。">
+  <a class="poster-link" href="./movie-1061.html" aria-label="观看大野八条龙">
+    <img src="./11.jpg" alt="大野八条龙" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1061.html">大野八条龙</a>
+    <p class="movie-meta">2026 · 中国香港 · 电影</p>
+    <p class="movie-one-line">八个代号带“龙”的社团大佬一夜之间被神秘人“大野”约进同一间茶餐厅，却发现只有七把椅子。</p>
+    <div class="movie-chips">
+      <span class="chip">犯罪</span>
+          <span class="chip">动作</span>
+          <span class="chip">黑色喜剧</span>
+          <span class="chip">黑帮</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="飞来子女" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="奇幻 育儿 反转 治愈 家庭喜剧" data-search="飞来子女 中国大陆 电影 2026 家庭喜剧 奇幻, 育儿, 反转, 治愈 一对发誓丁克的夫妻，突然每天都有来历不明的孩子“掉落”在自家客厅。">
+  <a class="poster-link" href="./movie-1074.html" aria-label="观看飞来子女">
+    <img src="./24.jpg" alt="飞来子女" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1074.html">飞来子女</a>
+    <p class="movie-meta">2026 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一对发誓丁克的夫妻，突然每天都有来历不明的孩子“掉落”在自家客厅。</p>
+    <div class="movie-chips">
+      <span class="chip">家庭喜剧</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">育儿</span>
+          <span class="chip">反转</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="爱丁顿" data-region="英国" data-type="剧集" data-year="2025" data-tags="爱丁顿 相对论 日食 科学史 信仰 剧情 传记 科学" data-search="爱丁顿 英国 剧集 2025 剧情 / 传记 / 科学 爱丁顿、相对论、日食、科学史、信仰 1919年，天文学家爱丁顿用日食观测证明相对论，但他真正想证明的是：上帝也爱数学。">
+  <a class="poster-link" href="./movie-1084.html" aria-label="观看爱丁顿">
+    <img src="./34.jpg" alt="爱丁顿" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1084.html">爱丁顿</a>
+    <p class="movie-meta">2025 · 英国 · 剧集</p>
+    <p class="movie-one-line">1919年，天文学家爱丁顿用日食观测证明相对论，但他真正想证明的是：上帝也爱数学。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">传记</span>
+          <span class="chip">科学</span>
+          <span class="chip">爱丁顿</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="海滩派对杀人魔" data-region="美国" data-type="电影" data-year="2021" data-tags="血腥 青春 面具杀手 海滩度假 反转结局 恐怖 惊悚" data-search="海滩派对杀人魔 美国 电影 2021 恐怖 / 惊悚 血腥，青春，面具杀手，海滩度假，反转结局 七名大学生在荒岛海滩开派对，却发现自己正被一个戴小丑面具的杀手逐个追杀。">
+  <a class="poster-link" href="./movie-1096.html" aria-label="观看海滩派对杀人魔">
+    <img src="./46.jpg" alt="海滩派对杀人魔" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1096.html">海滩派对杀人魔</a>
+    <p class="movie-meta">2021 · 美国 · 电影</p>
+    <p class="movie-one-line">七名大学生在荒岛海滩开派对，却发现自己正被一个戴小丑面具的杀手逐个追杀。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">血腥</span>
+          <span class="chip">青春</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="珍妮特星球" data-region="美国" data-type="电影" data-year="2025" data-tags="外星 孤独 AI 语言 异类 科幻 剧情" data-search="珍妮特星球 美国 电影 2025 科幻 / 剧情 外星, 孤独, AI, 语言, 异类 被派往“珍妮特”星球进行孤独科考的宇航员，发现这颗星球上的硅基生命，正在用一种能篡改人类记忆的方式向他问好。">
+  <a class="poster-link" href="./movie-1103.html" aria-label="观看珍妮特星球">
+    <img src="./53.jpg" alt="珍妮特星球" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1103.html">珍妮特星球</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">被派往“珍妮特”星球进行孤独科考的宇航员，发现这颗星球上的硅基生命，正在用一种能篡改人类记忆的方式向他问好。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">剧情</span>
+          <span class="chip">外星</span>
+          <span class="chip">孤独</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="女人30又怎样" data-region="中国大陆" data-type="剧集" data-year="2025" data-tags="女性群像 三十岁 职场与家庭 励志 剧情 都市 女性" data-search="女人30又怎样 中国大陆 剧集 2025 剧情 / 都市 / 女性 女性群像，三十岁，职场与家庭，励志 四位30岁女性在事业、婚姻与自我之间挣扎，决定重启人生。">
+  <a class="poster-link" href="./movie-1113.html" aria-label="观看女人30又怎样">
+    <img src="./63.jpg" alt="女人30又怎样" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1113.html">女人30又怎样</a>
+    <p class="movie-meta">2025 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">四位30岁女性在事业、婚姻与自我之间挣扎，决定重启人生。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">都市</span>
+          <span class="chip">女性</span>
+          <span class="chip">女性群像</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="外来媳妇本地郎6" data-region="中国大陆" data-type="剧集" data-year="2026" data-tags="城乡差异 代际沟通 粤语 邻里关系 剧情 家庭 喜剧" data-search="外来媳妇本地郎6 中国大陆 剧集 2026 剧情 / 家庭 / 喜剧 城乡差异, 代际沟通, 粤语, 邻里关系 当四个新潮儿媳与保守康家爆发“带孩子大战”，老城区掀起了前所未有的家庭革命。">
+  <a class="poster-link" href="./movie-1115.html" aria-label="观看外来媳妇本地郎6">
+    <img src="./65.jpg" alt="外来媳妇本地郎6" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1115.html">外来媳妇本地郎6</a>
+    <p class="movie-meta">2026 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">当四个新潮儿媳与保守康家爆发“带孩子大战”，老城区掀起了前所未有的家庭革命。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">城乡差异</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="田纳西" data-region="美国" data-type="电影" data-year="2017" data-tags="乡村音乐 兄弟和解 寻根之旅 治愈 剧情 音乐 公路" data-search="田纳西 美国 电影 2017 剧情, 音乐, 公路 乡村音乐, 兄弟和解, 寻根之旅, 治愈 一对决裂十年的兄弟，为了完成母亲遗愿开车横穿田纳西州寻找一首未发表的乡村歌曲。">
+  <a class="poster-link" href="./movie-1136.html" aria-label="观看田纳西">
+    <img src="./86.jpg" alt="田纳西" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1136.html">田纳西</a>
+    <p class="movie-meta">2017 · 美国 · 电影</p>
+    <p class="movie-one-line">一对决裂十年的兄弟，为了完成母亲遗愿开车横穿田纳西州寻找一首未发表的乡村歌曲。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">音乐</span>
+          <span class="chip">公路</span>
+          <span class="chip">乡村音乐</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="梦回玛丽莲" data-region="美国" data-type="电影" data-year="2024" data-tags="穿越 好莱坞 梦露 身份认同 复古 奇幻 剧情 爱情" data-search="梦回玛丽莲 美国 电影 2024 奇幻 / 剧情 / 爱情 穿越, 好莱坞, 梦露, 身份认同, 复古 现代小演员意外穿越成玛丽莲·梦露的替身，在黄金时代的光影中寻找真实的自己。">
+  <a class="poster-link" href="./movie-1139.html" aria-label="观看梦回玛丽莲">
+    <img src="./89.jpg" alt="梦回玛丽莲" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1139.html">梦回玛丽莲</a>
+    <p class="movie-meta">2024 · 美国 · 电影</p>
+    <p class="movie-one-line">现代小演员意外穿越成玛丽莲·梦露的替身，在黄金时代的光影中寻找真实的自己。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">剧情</span>
+          <span class="chip">爱情</span>
+          <span class="chip">穿越</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="飞天遁地" data-region="中国香港" data-type="电影" data-year="2025" data-tags="极限运动 反重力装置 警匪 港式动作 动作 科幻" data-search="飞天遁地 中国香港 电影 2025 动作， 科幻 极限运动， 反重力装置， 警匪， 港式动作 一个落魄的跑酷教练意外获得反重力腰带，被警方征召去抓捕能在高楼之间“飞行”的悍匪。">
+  <a class="poster-link" href="./movie-1149.html" aria-label="观看飞天遁地">
+    <img src="./99.jpg" alt="飞天遁地" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1149.html">飞天遁地</a>
+    <p class="movie-meta">2025 · 中国香港 · 电影</p>
+    <p class="movie-one-line">一个落魄的跑酷教练意外获得反重力腰带，被警方征召去抓捕能在高楼之间“飞行”的悍匪。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">科幻</span>
+          <span class="chip">极限运动</span>
+          <span class="chip">反重力装置</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="夜之河" data-region="泰国" data-type="电影" data-year="2025" data-tags="夜市 灵媒 连续失踪 惊悚 悬疑" data-search="夜之河 泰国 电影 2025 惊悚 / 悬疑 夜市, 灵媒, 连续失踪 曼谷最大的夜市里，每到周六午夜，第三条河道就会出现一个穿红裙的买花人，而见过她的人都会失踪。">
+  <a class="poster-link" href="./movie-1150.html" aria-label="观看夜之河">
+    <img src="./100.jpg" alt="夜之河" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1150.html">夜之河</a>
+    <p class="movie-meta">2025 · 泰国 · 电影</p>
+    <p class="movie-one-line">曼谷最大的夜市里，每到周六午夜，第三条河道就会出现一个穿红裙的买花人，而见过她的人都会失踪。</p>
+    <div class="movie-chips">
+      <span class="chip">惊悚</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">夜市</span>
+          <span class="chip">灵媒</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="阴影" data-region="日本" data-type="电影" data-year="2026" data-tags="都市传说 替身 童年创伤 恐怖 心理" data-search="阴影 日本 电影 2026 恐怖 / 心理 都市传说，替身，童年创伤 一直保护你的影子突然回头对你笑了，你才发现它才是真正的主人。">
+  <a class="poster-link" href="./movie-1180.html" aria-label="观看阴影">
+    <img src="./130.jpg" alt="阴影" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1180.html">阴影</a>
+    <p class="movie-meta">2026 · 日本 · 电影</p>
+    <p class="movie-one-line">一直保护你的影子突然回头对你笑了，你才发现它才是真正的主人。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">心理</span>
+          <span class="chip">都市传说</span>
+          <span class="chip">替身</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="战时冬天" data-region="荷兰" data-type="电影" data-year="2026" data-tags="二战 荷兰饥荒 少年抵抗 犹太少女 冰上逃亡 战争 剧情 历史" data-search="战时冬天 荷兰 电影 2026 战争、剧情、历史 二战，荷兰饥荒，少年抵抗，犹太少女，冰上逃亡 1944年的荷兰“饥荒之冬”，一名荷兰少年在结冰的运河里发现了一名昏迷的犹太少女，而他父亲正是当地纳粹合作者。">
+  <a class="poster-link" href="./movie-1181.html" aria-label="观看战时冬天">
+    <img src="./131.jpg" alt="战时冬天" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1181.html">战时冬天</a>
+    <p class="movie-meta">2026 · 荷兰 · 电影</p>
+    <p class="movie-one-line">1944年的荷兰“饥荒之冬”，一名荷兰少年在结冰的运河里发现了一名昏迷的犹太少女，而他父亲正是当地纳粹合作者。</p>
+    <div class="movie-chips">
+      <span class="chip">战争</span>
+          <span class="chip">剧情</span>
+          <span class="chip">历史</span>
+          <span class="chip">二战</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="历劫蔷薇" data-region="中国香港" data-type="剧集" data-year="2024" data-tags="贩毒 卧底 母女 救赎 剧情 女性" data-search="历劫蔷薇 中国香港 剧集 2024 剧情，女性 贩毒，卧底，母女，救赎 前贩毒集团女头目出狱后，发现女儿被仇家培养成新一代毒后，她必须重回深渊亲手送女儿入狱。">
+  <a class="poster-link" href="./movie-1193.html" aria-label="观看历劫蔷薇">
+    <img src="./143.jpg" alt="历劫蔷薇" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1193.html">历劫蔷薇</a>
+    <p class="movie-meta">2024 · 中国香港 · 剧集</p>
+    <p class="movie-one-line">前贩毒集团女头目出狱后，发现女儿被仇家培养成新一代毒后，她必须重回深渊亲手送女儿入狱。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">女性</span>
+          <span class="chip">贩毒</span>
+          <span class="chip">卧底</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="初来乍到" data-region="美国" data-type="剧集" data-year="2015" data-tags="华裔 文化冲突 成长 移民 喜剧 家庭" data-search="初来乍到 美国 剧集 2015 喜剧，家庭 华裔，文化冲突，成长，移民 上世纪九十年代，一个华裔家庭搬到白人社区，老爸迷信风水，老妈热衷虎妈教育，孩子们只想当美国人。">
+  <a class="poster-link" href="./movie-1205.html" aria-label="观看初来乍到">
+    <img src="./5.jpg" alt="初来乍到" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1205.html">初来乍到</a>
+    <p class="movie-meta">2015 · 美国 · 剧集</p>
+    <p class="movie-one-line">上世纪九十年代，一个华裔家庭搬到白人社区，老爸迷信风水，老妈热衷虎妈教育，孩子们只想当美国人。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">家庭</span>
+          <span class="chip">华裔</span>
+          <span class="chip">文化冲突</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="真相2019" data-region="中国大陆" data-type="剧集" data-year="2019" data-tags="记者 网络暴力 旧案重查 反转 社会派 悬疑 犯罪 剧情" data-search="真相2019 中国大陆 剧集 2019 悬疑, 犯罪, 剧情 记者, 网络暴力, 旧案重查, 反转, 社会派 十年前少女坠楼案被翻出，当年被网暴的嫌疑人如今成了流量网红，真相究竟在哪？">
+  <a class="poster-link" href="./movie-1209.html" aria-label="观看真相2019">
+    <img src="./9.jpg" alt="真相2019" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1209.html">真相2019</a>
+    <p class="movie-meta">2019 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">十年前少女坠楼案被翻出，当年被网暴的嫌疑人如今成了流量网红，真相究竟在哪？</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">剧情</span>
+          <span class="chip">记者</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="农民的根" data-region="中国大陆" data-type="电视剧" data-year="2023" data-tags="土地 拆迁 家族史 守村人 剧情 家庭 乡村" data-search="农民的根 中国大陆 电视剧 2023 剧情，家庭，乡村 土地，拆迁，家族史，守村人 七十五岁的老农为了守住祖辈的宅基地，在推土机前独自坐了一天一夜。">
+  <a class="poster-link" href="./movie-1213.html" aria-label="观看农民的根">
+    <img src="./13.jpg" alt="农民的根" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1213.html">农民的根</a>
+    <p class="movie-meta">2023 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">七十五岁的老农为了守住祖辈的宅基地，在推土机前独自坐了一天一夜。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">乡村</span>
+          <span class="chip">土地</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="五乘五" data-region="西班牙" data-type="电影" data-year="2025" data-tags="密室 五个人 互相猜忌 人性实验 悬疑 惊悚 犯罪" data-search="五乘五 西班牙 电影 2025 悬疑、惊悚、犯罪 密室、五个人、互相猜忌、人性实验 五个互不相识的人被关进一间 5x5 米的纯白房间，每人额头被贴了一个数字 1-5。">
+  <a class="poster-link" href="./movie-1225.html" aria-label="观看五乘五">
+    <img src="./25.jpg" alt="五乘五" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1225.html">五乘五</a>
+    <p class="movie-meta">2025 · 西班牙 · 电影</p>
+    <p class="movie-one-line">五个互不相识的人被关进一间 5x5 米的纯白房间，每人额头被贴了一个数字 1-5。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">密室</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="潜龙突击队" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="特种兵 东南亚 人质救援 丛林战 硬汉群像 动作 战争 冒险" data-search="潜龙突击队 中国大陆 电影 2025 动作, 战争, 冒险 特种兵, 东南亚, 人质救援, 丛林战, 硬汉群像 退役特种兵重组“潜龙”小队潜入金三角，却发现要救的人质，正是当年出卖他们导致全军覆没的叛徒。">
+  <a class="poster-link" href="./movie-1228.html" aria-label="观看潜龙突击队">
+    <img src="./28.jpg" alt="潜龙突击队" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1228.html">潜龙突击队</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">退役特种兵重组“潜龙”小队潜入金三角，却发现要救的人质，正是当年出卖他们导致全军覆没的叛徒。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">战争</span>
+          <span class="chip">冒险</span>
+          <span class="chip">特种兵</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="川尻小玉的懒散生活" data-region="日本" data-type="剧集" data-year="2024" data-tags="废柴 美食 独居 轻松 泡面番 动画 日常 治愈" data-search="川尻小玉的懒散生活 日本 剧集 2024 动画 / 日常 / 治愈 废柴，美食，独居，轻松，泡面番 只想懒散度日的上班族小玉，为了不饿死而挣扎做饭的可爱日常。">
+  <a class="poster-link" href="./movie-1231.html" aria-label="观看川尻小玉的懒散生活">
+    <img src="./31.jpg" alt="川尻小玉的懒散生活" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1231.html">川尻小玉的懒散生活</a>
+    <p class="movie-meta">2024 · 日本 · 剧集</p>
+    <p class="movie-one-line">只想懒散度日的上班族小玉，为了不饿死而挣扎做饭的可爱日常。</p>
+    <div class="movie-chips">
+      <span class="chip">动画</span>
+          <span class="chip">日常</span>
+          <span class="chip">治愈</span>
+          <span class="chip">废柴</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="麻木不仁第一季" data-region="美国" data-type="剧集" data-year="2024" data-tags="医患 情感障碍 家庭 治愈 剧情 黑色幽默" data-search="麻木不仁第一季 美国 剧集 2024 剧情 / 黑色幽默 医患, 情感障碍, 家庭, 治愈 一个因车祸失去情绪感知能力的天才外科医生，为了不被医院解雇，开始伪装情感，却越陷越深。">
+  <a class="poster-link" href="./movie-1234.html" aria-label="观看麻木不仁第一季">
+    <img src="./34.jpg" alt="麻木不仁第一季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1234.html">麻木不仁第一季</a>
+    <p class="movie-meta">2024 · 美国 · 剧集</p>
+    <p class="movie-one-line">一个因车祸失去情绪感知能力的天才外科医生，为了不被医院解雇，开始伪装情感，却越陷越深。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">黑色幽默</span>
+          <span class="chip">医患</span>
+          <span class="chip">情感障碍</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="津门飞鹰" data-region="中国大陆" data-type="电视剧" data-year="2026" data-tags="民国天津 租界混战 特工 多国博弈 动作 悬疑 谍战" data-search="津门飞鹰 中国大陆 电视剧 2026 动作 / 悬疑 / 谍战 民国天津，租界混战，特工，多国博弈 1937年的天津卫，鱼龙混杂的九国租界里，一只神秘的“飞鹰”游走各方势力间，盗取绝密黑名单。">
+  <a class="poster-link" href="./movie-1240.html" aria-label="观看津门飞鹰">
+    <img src="./40.jpg" alt="津门飞鹰" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1240.html">津门飞鹰</a>
+    <p class="movie-meta">2026 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">1937年的天津卫，鱼龙混杂的九国租界里，一只神秘的“飞鹰”游走各方势力间，盗取绝密黑名单。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">谍战</span>
+          <span class="chip">民国天津</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="安娜与贝拉" data-region="荷兰" data-type="电影（动画短片）" data-year="2023" data-tags="姐妹 老年 回忆 手绘 动画 家庭 剧情" data-search="安娜与贝拉 荷兰 电影（动画短片） 2023 动画 / 家庭 / 剧情 姐妹, 老年, 回忆, 手绘 年迈的安娜在养老院照顾失智的姐姐贝拉，她用纸偶重演了姐妹俩横跨八十年的所有争吵与和解。">
+  <a class="poster-link" href="./movie-1244.html" aria-label="观看安娜与贝拉">
+    <img src="./44.jpg" alt="安娜与贝拉" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1244.html">安娜与贝拉</a>
+    <p class="movie-meta">2023 · 荷兰 · 电影（动画短片）</p>
+    <p class="movie-one-line">年迈的安娜在养老院照顾失智的姐姐贝拉，她用纸偶重演了姐妹俩横跨八十年的所有争吵与和解。</p>
+    <div class="movie-chips">
+      <span class="chip">动画</span>
+          <span class="chip">家庭</span>
+          <span class="chip">剧情</span>
+          <span class="chip">姐妹</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="仁显王后的男人" data-region="韩国" data-type="电视剧" data-year="2024" data-tags="穿越 政治斗争 契约恋爱 改编 爱情 奇幻 古装" data-search="仁显王后的男人 韩国 电视剧 2024 爱情, 奇幻, 古装 穿越, 政治斗争, 契约恋爱, 改编 朝鲜时代的弘文馆 scholar 为保仁显王后性命，穿越到现代，却发现自己必须娶一个三流女演员才能改变历史。">
+  <a class="poster-link" href="./movie-1250.html" aria-label="观看仁显王后的男人">
+    <img src="./50.jpg" alt="仁显王后的男人" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1250.html">仁显王后的男人</a>
+    <p class="movie-meta">2024 · 韩国 · 电视剧</p>
+    <p class="movie-one-line">朝鲜时代的弘文馆 scholar 为保仁显王后性命，穿越到现代，却发现自己必须娶一个三流女演员才能改变历史。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">古装</span>
+          <span class="chip">穿越</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="冷秋薇(下集) 粤语" data-region="香港" data-type="电影" data-year="1990" data-tags="粤语原声 女性 时代悲剧 香港旧梦 上下集 剧情 爱情 文艺" data-search="冷秋薇(下集) 粤语 香港 电影 1990 剧情、爱情、文艺 粤语原声、女性、时代悲剧、香港旧梦、上下集 80年代香港，舞女冷秋薇洗尽铅华嫁作人妇，但过去的噩梦在下集全面反扑。">
+  <a class="poster-link" href="./movie-1268.html" aria-label="观看冷秋薇(下集) 粤语">
+    <img src="./68.jpg" alt="冷秋薇(下集) 粤语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1268.html">冷秋薇(下集) 粤语</a>
+    <p class="movie-meta">1990 · 香港 · 电影</p>
+    <p class="movie-one-line">80年代香港，舞女冷秋薇洗尽铅华嫁作人妇，但过去的噩梦在下集全面反扑。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">爱情</span>
+          <span class="chip">文艺</span>
+          <span class="chip">粤语原声</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="名侦探柯南国语版" data-region="日本" data-type="剧集" data-year="1999" data-tags="国配 童年经典 单元探案 黑衣组织 动画 推理 悬疑" data-search="名侦探柯南国语版 日本 剧集 1999 动画 / 推理 / 悬疑 国配, 童年经典, 单元探案, 黑衣组织 变成小学生的工藤新一用蝴蝶结变声器揭开连环密室杀人案的惊人真相。">
+  <a class="poster-link" href="./movie-1281.html" aria-label="观看名侦探柯南国语版">
+    <img src="./81.jpg" alt="名侦探柯南国语版" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1281.html">名侦探柯南国语版</a>
+    <p class="movie-meta">1999 · 日本 · 剧集</p>
+    <p class="movie-one-line">变成小学生的工藤新一用蝴蝶结变声器揭开连环密室杀人案的惊人真相。</p>
+    <div class="movie-chips">
+      <span class="chip">动画</span>
+          <span class="chip">推理</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">国配</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="胖女不愁嫁" data-region="中国大陆" data-type="剧集" data-year="2024" data-tags="微胖女主 自信 反容貌焦虑 喜剧 爱情 都市" data-search="胖女不愁嫁 中国大陆 剧集 2024 喜剧, 爱情, 都市 微胖女主, 自信, 反容貌焦虑 一个被亲妈逼婚的180斤女孩，搞砸了所有相亲，却凭实力让三位优质男倒追，她开始慌了。">
+  <a class="poster-link" href="./movie-1285.html" aria-label="观看胖女不愁嫁">
+    <img src="./85.jpg" alt="胖女不愁嫁" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1285.html">胖女不愁嫁</a>
+    <p class="movie-meta">2024 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">一个被亲妈逼婚的180斤女孩，搞砸了所有相亲，却凭实力让三位优质男倒追，她开始慌了。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">爱情</span>
+          <span class="chip">都市</span>
+          <span class="chip">微胖女主</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="琵琶怨" data-region="中国内地" data-type="电影" data-year="2024" data-tags="唐代 琵琶 宫廷秘闻 替身 古装 悬疑 爱情" data-search="琵琶怨 中国内地 电影 2024 古装 / 悬疑 / 爱情 唐代， 琵琶， 宫廷秘闻， 替身 大唐宫廷琵琶乐师离奇死亡，妹妹假扮姐姐入宫查案，却爱上嫌疑人。">
+  <a class="poster-link" href="./movie-1304.html" aria-label="观看琵琶怨">
+    <img src="./104.jpg" alt="琵琶怨" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1304.html">琵琶怨</a>
+    <p class="movie-meta">2024 · 中国内地 · 电影</p>
+    <p class="movie-one-line">大唐宫廷琵琶乐师离奇死亡，妹妹假扮姐姐入宫查案，却爱上嫌疑人。</p>
+    <div class="movie-chips">
+      <span class="chip">古装</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">爱情</span>
+          <span class="chip">唐代</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="我要孭飞" data-region="中国香港" data-type="电影" data-year="2024" data-tags="港产片 小人物 顶罪 兄弟情 骗保 犯罪 剧情 黑色幽默" data-search="我要孭飞 中国香港 电影 2024 犯罪、剧情、黑色幽默 港产片、小人物、顶罪、兄弟情、骗保 废柴青年阿水为了钱答应替黑帮顶罪入狱，出狱后却发现“自己”在外面犯下了更离谱的连环大案。">
+  <a class="poster-link" href="./movie-1339.html" aria-label="观看我要孭飞">
+    <img src="./139.jpg" alt="我要孭飞" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1339.html">我要孭飞</a>
+    <p class="movie-meta">2024 · 中国香港 · 电影</p>
+    <p class="movie-one-line">废柴青年阿水为了钱答应替黑帮顶罪入狱，出狱后却发现“自己”在外面犯下了更离谱的连环大案。</p>
+    <div class="movie-chips">
+      <span class="chip">犯罪</span>
+          <span class="chip">剧情</span>
+          <span class="chip">黑色幽默</span>
+          <span class="chip">港产片</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="七天七夜" data-region="中国大陆" data-type="电影" data-year="2023" data-tags="矿难 极限救援 人性光辉 真实事件改编 灾难 动作 剧情" data-search="七天七夜 中国大陆 电影 2023 灾难 / 动作 / 剧情 矿难, 极限救援, 人性光辉, 真实事件改编 煤矿透水事故，六名矿工被困井下，地面救援队只有七天时间打通生命通道。">
+  <a class="poster-link" href="./movie-1341.html" aria-label="观看七天七夜">
+    <img src="./141.jpg" alt="七天七夜" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1341.html">七天七夜</a>
+    <p class="movie-meta">2023 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">煤矿透水事故，六名矿工被困井下，地面救援队只有七天时间打通生命通道。</p>
+    <div class="movie-chips">
+      <span class="chip">灾难</span>
+          <span class="chip">动作</span>
+          <span class="chip">剧情</span>
+          <span class="chip">矿难</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="被迫情死的日本之夏" data-region="日本" data-type="电影" data-year="2024" data-tags="二战 冲绳 集体自杀 禁忌之恋 历史悲剧 爱情 战争" data-search="被迫情死的日本之夏 日本 电影 2024 爱情 / 战争 二战, 冲绳, 集体自杀, 禁忌之恋, 历史悲剧 1945年冲绳战末期，一名日本兵和当地少女在“集体死”的胁迫下，选择为爱情而逃亡。">
+  <a class="poster-link" href="./movie-1350.html" aria-label="观看被迫情死的日本之夏">
+    <img src="./150.jpg" alt="被迫情死的日本之夏" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1350.html">被迫情死的日本之夏</a>
+    <p class="movie-meta">2024 · 日本 · 电影</p>
+    <p class="movie-one-line">1945年冲绳战末期，一名日本兵和当地少女在“集体死”的胁迫下，选择为爱情而逃亡。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">战争</span>
+          <span class="chip">二战</span>
+          <span class="chip">冲绳</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="孤鸾杀" data-region="中国台湾" data-type="电影" data-year="2024" data-tags="杀手 孤独 文艺暴力 黑色电影 悬疑 爱情" data-search="孤鸾杀 中国台湾 电影 2024 悬疑, 爱情 杀手, 孤独, 文艺暴力, 黑色电影 一名女杀手在退休前的最后一次任务中，爱上了目标——而对方也是一名杀手，且已经盯上了她。">
+  <a class="poster-link" href="./movie-1361.html" aria-label="观看孤鸾杀">
+    <img src="./11.jpg" alt="孤鸾杀" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1361.html">孤鸾杀</a>
+    <p class="movie-meta">2024 · 中国台湾 · 电影</p>
+    <p class="movie-one-line">一名女杀手在退休前的最后一次任务中，爱上了目标——而对方也是一名杀手，且已经盯上了她。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">爱情</span>
+          <span class="chip">杀手</span>
+          <span class="chip">孤独</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="万紫千红青春乐" data-region="中国台湾" data-type="剧集" data-year="2023" data-tags="校园乐队 民歌复兴 复古 合租 梦想 剧情 音乐 成长" data-search="万紫千红青春乐 中国台湾 剧集 2023 剧情 / 音乐 / 成长 校园乐队 / 民歌复兴 / 复古 / 合租 / 梦想 六个被退学的音乐差生，在即将拆迁的老歌厅里，组成了最后一支青春乐队。">
+  <a class="poster-link" href="./movie-1366.html" aria-label="观看万紫千红青春乐">
+    <img src="./16.jpg" alt="万紫千红青春乐" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1366.html">万紫千红青春乐</a>
+    <p class="movie-meta">2023 · 中国台湾 · 剧集</p>
+    <p class="movie-one-line">六个被退学的音乐差生，在即将拆迁的老歌厅里，组成了最后一支青春乐队。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">音乐</span>
+          <span class="chip">成长</span>
+          <span class="chip">校园乐队</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="不能没有家" data-region="中国大陆" data-type="电视剧" data-year="2024" data-tags="房地产 蜗居 亲情 北漂 现实主义 剧情 家庭" data-search="不能没有家 中国大陆 电视剧 2024 剧情, 家庭 房地产, 蜗居, 亲情, 北漂, 现实主义 一张房产证成了撕裂亲情的利刃，三代人为了“家”的名义而战。">
+  <a class="poster-link" href="./movie-1382.html" aria-label="观看不能没有家">
+    <img src="./32.jpg" alt="不能没有家" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1382.html">不能没有家</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电视剧</p>
+    <p class="movie-one-line">一张房产证成了撕裂亲情的利刃，三代人为了“家”的名义而战。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">房地产</span>
+          <span class="chip">蜗居</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="我不是教主 动态漫" data-region="中国大陆" data-type="动态漫画" data-year="2021" data-tags="反套路 魔教 动态漫 沙雕 搞笑 玄幻" data-search="我不是教主 动态漫 中国大陆 动态漫画 2021 搞笑 / 玄幻 反套路，魔教，动态漫，沙雕 一个老实人被误认成魔教教主，所有人都求他赶紧一统江湖。">
+  <a class="poster-link" href="./movie-1387.html" aria-label="观看我不是教主 动态漫">
+    <img src="./37.jpg" alt="我不是教主 动态漫" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1387.html">我不是教主 动态漫</a>
+    <p class="movie-meta">2021 · 中国大陆 · 动态漫画</p>
+    <p class="movie-one-line">一个老实人被误认成魔教教主，所有人都求他赶紧一统江湖。</p>
+    <div class="movie-chips">
+      <span class="chip">搞笑</span>
+          <span class="chip">玄幻</span>
+          <span class="chip">反套路</span>
+          <span class="chip">魔教</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="捞世界" data-region="中国大陆" data-type="电影" data-year="2022" data-tags="黑色幽默 小人物 发财梦 荒诞 喜剧 犯罪" data-search="捞世界 中国大陆 电影 2022 喜剧 / 犯罪 黑色幽默, 小人物, 发财梦, 荒诞 小镇青年想靠“捞偏门”暴富，结果把整个东南亚的骗子集团给“反杀”了。">
+  <a class="poster-link" href="./movie-1389.html" aria-label="观看捞世界">
+    <img src="./39.jpg" alt="捞世界" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1389.html">捞世界</a>
+    <p class="movie-meta">2022 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">小镇青年想靠“捞偏门”暴富，结果把整个东南亚的骗子集团给“反杀”了。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">黑色幽默</span>
+          <span class="chip">小人物</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="总统班底" data-region="美国" data-type="剧集" data-year="2025" data-tags="白宫 水门事件 新闻调查 重塑叙事 架空历史 政治惊悚" data-search="总统班底 美国 剧集 2025 政治惊悚 白宫, 水门事件, 新闻调查, 重塑叙事, 架空历史 架空当代美国，两名《华盛顿邮报》记者追查一起白宫闯入案，发现总统秘密连任的惊天阴谋。">
+  <a class="poster-link" href="./movie-1391.html" aria-label="观看总统班底">
+    <img src="./41.jpg" alt="总统班底" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1391.html">总统班底</a>
+    <p class="movie-meta">2025 · 美国 · 剧集</p>
+    <p class="movie-one-line">架空当代美国，两名《华盛顿邮报》记者追查一起白宫闯入案，发现总统秘密连任的惊天阴谋。</p>
+    <div class="movie-chips">
+      <span class="chip">政治惊悚</span>
+          <span class="chip">白宫</span>
+          <span class="chip">水门事件</span>
+          <span class="chip">新闻调查</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="诡影访客" data-region="美国" data-type="电影" data-year="2024" data-tags="外星人 超自然 小镇怪谈 心理恐惧 仿生学 科幻 悬疑 恐怖" data-search="诡影访客 美国 电影 2024 科幻， 悬疑， 恐怖 外星人， 超自然， 小镇怪谈， 心理恐惧， 仿生学 一座与世隔绝的小镇连续发生失踪案，监控只拍到每个失踪者都曾与一模一样的“自己”并肩行走。">
+  <a class="poster-link" href="./movie-1406.html" aria-label="观看诡影访客">
+    <img src="./56.jpg" alt="诡影访客" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1406.html">诡影访客</a>
+    <p class="movie-meta">2024 · 美国 · 电影</p>
+    <p class="movie-one-line">一座与世隔绝的小镇连续发生失踪案，监控只拍到每个失踪者都曾与一模一样的“自己”并肩行走。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">恐怖</span>
+          <span class="chip">外星人</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="杜巴先生" data-region="法国" data-type="电影" data-year="2026" data-tags="时间循环 心灵救赎 孤独症 巴黎夜景 剧情 奇幻" data-search="杜巴先生 法国 电影 2026 剧情, 奇幻 时间循环, 心灵救赎, 孤独症, 巴黎夜景 一位永远被困在午夜巴黎的刻薄书评人，必须让一千个陌生人爱上他才能离开。">
+  <a class="poster-link" href="./movie-1423.html" aria-label="观看杜巴先生">
+    <img src="./73.jpg" alt="杜巴先生" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1423.html">杜巴先生</a>
+    <p class="movie-meta">2026 · 法国 · 电影</p>
+    <p class="movie-one-line">一位永远被困在午夜巴黎的刻薄书评人，必须让一千个陌生人爱上他才能离开。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">时间循环</span>
+          <span class="chip">心灵救赎</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="机动警察迷你版" data-region="日本" data-type="剧集" data-year="1991" data-tags="Q版 泡面番 特车二课 恶搞 喜剧 科幻" data-search="机动警察迷你版 日本 剧集 1991 喜剧、科幻 Q版、泡面番、特车二课、恶搞 将原版《机动警察》所有角色二头身化，泉野明每天用机器人买早餐，后藤队长最大的敌人是办公室的自动售货机。">
+  <a class="poster-link" href="./movie-1427.html" aria-label="观看机动警察迷你版">
+    <img src="./77.jpg" alt="机动警察迷你版" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1427.html">机动警察迷你版</a>
+    <p class="movie-meta">1991 · 日本 · 剧集</p>
+    <p class="movie-one-line">将原版《机动警察》所有角色二头身化，泉野明每天用机器人买早餐，后藤队长最大的敌人是办公室的自动售货机。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">科幻</span>
+          <span class="chip">Q版</span>
+          <span class="chip">泡面番</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="非电影" data-region="法国" data-type="电影" data-year="2023" data-tags="元电影 哲学思辨 打破第四面墙 黑白影像 纪录片 实验" data-search="非电影 法国 电影 2023 纪录片 / 实验 元电影，哲学思辨，打破第四面墙，黑白影像 一部试图拍摄“关于一切的电影”却失败了的纪录片，记录了失败本身。">
+  <a class="poster-link" href="./movie-1448.html" aria-label="观看非电影">
+    <img src="./98.jpg" alt="非电影" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1448.html">非电影</a>
+    <p class="movie-meta">2023 · 法国 · 电影</p>
+    <p class="movie-one-line">一部试图拍摄“关于一切的电影”却失败了的纪录片，记录了失败本身。</p>
+    <div class="movie-chips">
+      <span class="chip">纪录片</span>
+          <span class="chip">实验</span>
+          <span class="chip">元电影</span>
+          <span class="chip">哲学思辨</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="在火山下" data-region="冰岛" data-type="电影" data-year="2021" data-tags="心理学 封闭空间 自然力量 剧情 惊悚" data-search="在火山下 冰岛 电影 2021 剧情, 惊悚 心理学, 封闭空间, 自然力量 火山爆发前夕，四名地质学家被困地下实验室，有人开始产生可怕的幻觉。">
+  <a class="poster-link" href="./movie-1480.html" aria-label="观看在火山下">
+    <img src="./130.jpg" alt="在火山下" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1480.html">在火山下</a>
+    <p class="movie-meta">2021 · 冰岛 · 电影</p>
+    <p class="movie-one-line">火山爆发前夕，四名地质学家被困地下实验室，有人开始产生可怕的幻觉。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">心理学</span>
+          <span class="chip">封闭空间</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="幽游白书真人版" data-region="日本" data-type="剧集" data-year="2026" data-tags="经典改编 灵界 暗黑武术会 高还原 燃 奇幻 动作 漫改" data-search="幽游白书真人版 日本 剧集 2026 奇幻 / 动作 / 漫改 经典改编 灵界 暗黑武术会 高还原 燃 不良少年浦饭幽助为救小孩丧命，被灵界选中成为“灵界侦探”，对抗人间与魔界的裂缝。">
+  <a class="poster-link" href="./movie-1492.html" aria-label="观看幽游白书真人版">
+    <img src="./142.jpg" alt="幽游白书真人版" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1492.html">幽游白书真人版</a>
+    <p class="movie-meta">2026 · 日本 · 剧集</p>
+    <p class="movie-one-line">不良少年浦饭幽助为救小孩丧命，被灵界选中成为“灵界侦探”，对抗人间与魔界的裂缝。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">动作</span>
+          <span class="chip">漫改</span>
+          <span class="chip">经典改编 灵界 暗黑武术会 高还原 燃</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="百鸟朝凤" data-region="中国内地" data-type="电影" data-year="2013" data-tags="唢呐 非遗 师徒 传承 剧情 音乐 传记" data-search="百鸟朝凤 中国内地 电影 2013 剧情, 音乐, 传记 唢呐, 非遗, 师徒, 传承 黄河岸边，老唢呐匠焦三爷用生命传授绝技《百鸟朝凤》，却发现徒弟们已经在时代的喧嚣中走散。">
+  <a class="poster-link" href="./movie-1495.html" aria-label="观看百鸟朝凤">
+    <img src="./145.jpg" alt="百鸟朝凤" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1495.html">百鸟朝凤</a>
+    <p class="movie-meta">2013 · 中国内地 · 电影</p>
+    <p class="movie-one-line">黄河岸边，老唢呐匠焦三爷用生命传授绝技《百鸟朝凤》，却发现徒弟们已经在时代的喧嚣中走散。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">音乐</span>
+          <span class="chip">传记</span>
+          <span class="chip">唢呐</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="军官的一小时" data-region="法国" data-type="电影" data-year="2025" data-tags="一战 限时 抉择 人性 战争 剧情 爱情" data-search="军官的一小时 法国 电影 2025 战争, 剧情, 爱情 一战, 限时, 抉择, 人性 一战战壕里，一名德军军官获得了一小时的停战权，去寻找敌军阵地上那个会拉大提琴的士兵。">
+  <a class="poster-link" href="./movie-1509.html" aria-label="观看军官的一小时">
+    <img src="./9.jpg" alt="军官的一小时" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1509.html">军官的一小时</a>
+    <p class="movie-meta">2025 · 法国 · 电影</p>
+    <p class="movie-one-line">一战战壕里，一名德军军官获得了一小时的停战权，去寻找敌军阵地上那个会拉大提琴的士兵。</p>
+    <div class="movie-chips">
+      <span class="chip">战争</span>
+          <span class="chip">剧情</span>
+          <span class="chip">爱情</span>
+          <span class="chip">一战</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="云梦奇缘" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="梦境穿越 楚汉争霸 双面人生 历史解构 奇幻古装" data-search="云梦奇缘 中国大陆 电影 2024 奇幻古装 梦境穿越, 楚汉争霸, 双面人生, 历史解构 一个被霸凌的中学生每晚都会在梦中变成项羽的军师，而他在历史中做的每一个决定都会改变明天的现实。">
+  <a class="poster-link" href="./movie-1520.html" aria-label="观看云梦奇缘">
+    <img src="./20.jpg" alt="云梦奇缘" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1520.html">云梦奇缘</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一个被霸凌的中学生每晚都会在梦中变成项羽的军师，而他在历史中做的每一个决定都会改变明天的现实。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻古装</span>
+          <span class="chip">梦境穿越</span>
+          <span class="chip">楚汉争霸</span>
+          <span class="chip">双面人生</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="联合政府" data-region="美国 / 多国" data-type="剧集" data-year="2024" data-tags="未来政治 分裂 AI总统 阴谋 科幻 政治 惊悚" data-search="联合政府 美国 / 多国 剧集 2024 科幻 / 政治 / 惊悚 未来政治, 分裂, AI总统, 阴谋 当世界各国政府解散，一个由AI管理的联合政府成立，但它的第一个命令是：重启人类生育许可证制度。">
+  <a class="poster-link" href="./movie-1521.html" aria-label="观看联合政府">
+    <img src="./21.jpg" alt="联合政府" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1521.html">联合政府</a>
+    <p class="movie-meta">2024 · 美国 / 多国 · 剧集</p>
+    <p class="movie-one-line">当世界各国政府解散，一个由AI管理的联合政府成立，但它的第一个命令是：重启人类生育许可证制度。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">政治</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">未来政治</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="哈啦美容院" data-region="中国香港" data-type="电影" data-year="2002" data-tags="街坊 市井 女性群像 港味 温情 喜剧 剧情 家庭" data-search="哈啦美容院 中国香港 电影 2002 喜剧 / 剧情 / 家庭 街坊, 市井, 女性群像, 港味, 温情 深水埗老式美容院面临拆迁，老板娘和一群老姐妹顾客，决定为最后一次“街坊节”编排歌舞。">
+  <a class="poster-link" href="./movie-1522.html" aria-label="观看哈啦美容院">
+    <img src="./22.jpg" alt="哈啦美容院" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1522.html">哈啦美容院</a>
+    <p class="movie-meta">2002 · 中国香港 · 电影</p>
+    <p class="movie-one-line">深水埗老式美容院面临拆迁，老板娘和一群老姐妹顾客，决定为最后一次“街坊节”编排歌舞。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">街坊</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="午夜心跳" data-region="中国大陆" data-type="电影" data-year="2010" data-tags="医院 心理惊悚 国产恐怖 氛围 因果 恐怖 惊悚" data-search="午夜心跳 中国大陆 电影 2010 恐怖, 惊悚 医院, 心理惊悚, 国产恐怖, 氛围, 因果 一所废弃医院里，每到午夜就能听见诡异的心跳声，而那频率只出现在死人身上。">
+  <a class="poster-link" href="./movie-1533.html" aria-label="观看午夜心跳">
+    <img src="./33.jpg" alt="午夜心跳" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1533.html">午夜心跳</a>
+    <p class="movie-meta">2010 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一所废弃医院里，每到午夜就能听见诡异的心跳声，而那频率只出现在死人身上。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">医院</span>
+          <span class="chip">心理惊悚</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="周末夜先生" data-region="中国香港" data-type="电影" data-year="2024" data-tags="夜场 卧底 港产片 剧情 犯罪" data-search="周末夜先生 中国香港 电影 2024 剧情，犯罪 夜场，卧底，港产片 只在周末夜晚出现的传奇“夜场经理”，其实是警方卧底，他的任务是钓出藏身于富豪派对中的毒枭。">
+  <a class="poster-link" href="./movie-1540.html" aria-label="观看周末夜先生">
+    <img src="./40.jpg" alt="周末夜先生" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1540.html">周末夜先生</a>
+    <p class="movie-meta">2024 · 中国香港 · 电影</p>
+    <p class="movie-one-line">只在周末夜晚出现的传奇“夜场经理”，其实是警方卧底，他的任务是钓出藏身于富豪派对中的毒枭。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">夜场</span>
+          <span class="chip">卧底</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="黄蜂第一季" data-region="美国" data-type="剧集" data-year="2023" data-tags="荒野求生 女子足球队 双重时间线 生存恐怖 剧情 悬疑 惊悚" data-search="黄蜂第一季 美国 剧集 2023 剧情 / 悬疑 / 惊悚 荒野求生, 女子足球队, 双重时间线, 生存恐怖 一支高中女子足球队的飞机坠毁在安大略省的荒野，她们为了生存，逐渐分裂成两个崇拜“黄蜂之神”的原始部落。">
+  <a class="poster-link" href="./movie-1544.html" aria-label="观看黄蜂第一季">
+    <img src="./44.jpg" alt="黄蜂第一季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1544.html">黄蜂第一季</a>
+    <p class="movie-meta">2023 · 美国 · 剧集</p>
+    <p class="movie-one-line">一支高中女子足球队的飞机坠毁在安大略省的荒野，她们为了生存，逐渐分裂成两个崇拜“黄蜂之神”的原始部落。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">荒野求生</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="罗马飞车贼" data-region="意大利" data-type="电影" data-year="2025" data-tags="摩托车 城市追逐 小偷家族 观光客 动作 喜剧 犯罪" data-search="罗马飞车贼 意大利 电影 2025 动作 / 喜剧 / 犯罪 摩托车, 城市追逐, 小偷家族, 观光客 罗马最厉害的小偷父女，最后一次下手竟偷到了黑手党的葬礼钱。">
+  <a class="poster-link" href="./movie-1547.html" aria-label="观看罗马飞车贼">
+    <img src="./47.jpg" alt="罗马飞车贼" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1547.html">罗马飞车贼</a>
+    <p class="movie-meta">2025 · 意大利 · 电影</p>
+    <p class="movie-one-line">罗马最厉害的小偷父女，最后一次下手竟偷到了黑手党的葬礼钱。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">摩托车</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="毁灭在即" data-region="美国" data-type="电影" data-year="2025" data-tags="小行星 倒计时 伦理 方舟 科幻 灾难" data-search="毁灭在即 美国 电影 2025 科幻、灾难 小行星、倒计时、伦理、方舟 一颗小行星将在90天后撞地球，全球只有2000人能上飞船，谁来决定谁活谁死？">
+  <a class="poster-link" href="./movie-1616.html" aria-label="观看毁灭在即">
+    <img src="./116.jpg" alt="毁灭在即" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1616.html">毁灭在即</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">一颗小行星将在90天后撞地球，全球只有2000人能上飞船，谁来决定谁活谁死？</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">灾难</span>
+          <span class="chip">小行星</span>
+          <span class="chip">倒计时</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="东德蕾丝的爱欲" data-region="德国" data-type="电影" data-year="2025" data-tags="冷战 女同 蕾丝工厂 禁忌之恋 爱情 剧情" data-search="东德蕾丝的爱欲 德国 电影 2025 爱情/剧情 冷战, 女同, 蕾丝工厂, 禁忌之恋 1970年代东德，在一家国营蕾丝工厂里，一个斯大林主义的模范女工与一个颓废的厂医之间，展开了一段跨越意识形态的隐秘爱恋。">
+  <a class="poster-link" href="./movie-1619.html" aria-label="观看东德蕾丝的爱欲">
+    <img src="./119.jpg" alt="东德蕾丝的爱欲" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1619.html">东德蕾丝的爱欲</a>
+    <p class="movie-meta">2025 · 德国 · 电影</p>
+    <p class="movie-one-line">1970年代东德，在一家国营蕾丝工厂里，一个斯大林主义的模范女工与一个颓废的厂医之间，展开了一段跨越意识形态的隐秘爱恋。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">剧情</span>
+          <span class="chip">冷战</span>
+          <span class="chip">女同</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="大漠巾帼情" data-region="中国大陆" data-type="电影" data-year="2008" data-tags="女性 沙漠 治沙 坚守 母女 剧情 西部" data-search="大漠巾帼情 中国大陆 电影 2008 剧情, 西部 女性, 沙漠, 治沙, 坚守, 母女 一个一心逃离沙漠的叛逆女孩，最终却为了守护家园，留在了风沙肆虐的戈壁滩上。">
+  <a class="poster-link" href="./movie-1629.html" aria-label="观看大漠巾帼情">
+    <img src="./129.jpg" alt="大漠巾帼情" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1629.html">大漠巾帼情</a>
+    <p class="movie-meta">2008 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一个一心逃离沙漠的叛逆女孩，最终却为了守护家园，留在了风沙肆虐的戈壁滩上。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">西部</span>
+          <span class="chip">女性</span>
+          <span class="chip">沙漠</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="钟鸣寒山寺" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="唐朝 寺庙凶案 狄仁杰风 推理 悬疑 历史 古装" data-search="钟鸣寒山寺 中国大陆 电影 2025 悬疑, 历史, 古装 唐朝, 寺庙凶案, 狄仁杰风, 推理 除夕夜，寒山寺钟声敲响第一百零八下时，方丈在众目睽睽之下化为一滩血水。">
+  <a class="poster-link" href="./movie-1633.html" aria-label="观看钟鸣寒山寺">
+    <img src="./133.jpg" alt="钟鸣寒山寺" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1633.html">钟鸣寒山寺</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">除夕夜，寒山寺钟声敲响第一百零八下时，方丈在众目睽睽之下化为一滩血水。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">历史</span>
+          <span class="chip">古装</span>
+          <span class="chip">唐朝</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="霹雳湾风云" data-region="中国香港" data-type="电视剧" data-year="1997" data-tags="江湖 卧底 兄弟情 枪战 动作 黑帮 爱情" data-search="霹雳湾风云 中国香港 电视剧 1997 动作，黑帮，爱情 江湖，卧底，兄弟情，枪战 卧底在黑帮十年终于上位，却在接管霹雳湾赌船那晚，发现新老大竟是警校同窗。">
+  <a class="poster-link" href="./movie-1636.html" aria-label="观看霹雳湾风云">
+    <img src="./136.jpg" alt="霹雳湾风云" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1636.html">霹雳湾风云</a>
+    <p class="movie-meta">1997 · 中国香港 · 电视剧</p>
+    <p class="movie-one-line">卧底在黑帮十年终于上位，却在接管霹雳湾赌船那晚，发现新老大竟是警校同窗。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">黑帮</span>
+          <span class="chip">爱情</span>
+          <span class="chip">江湖</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="疯狂原始人2" data-region="美国" data-type="动画电影" data-year="2026" data-tags="原始人 现代文明 家庭 笑料百出 续集 喜剧 冒险 动画" data-search="疯狂原始人2 美国 动画电影 2026 喜剧, 冒险, 动画 原始人, 现代文明, 家庭, 笑料百出, 续集 咕噜家族误入一座高科技“伊甸园”小区，却发现这里的现代人想把“不文明”的他们改造干净。">
+  <a class="poster-link" href="./movie-1654.html" aria-label="观看疯狂原始人2">
+    <img src="./4.jpg" alt="疯狂原始人2" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1654.html">疯狂原始人2</a>
+    <p class="movie-meta">2026 · 美国 · 动画电影</p>
+    <p class="movie-one-line">咕噜家族误入一座高科技“伊甸园”小区，却发现这里的现代人想把“不文明”的他们改造干净。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">冒险</span>
+          <span class="chip">动画</span>
+          <span class="chip">原始人</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="妙手亲一亲" data-region="中国香港" data-type="电影" data-year="2024" data-tags="互换身体 冤家 职业剧 搞笑 香港 喜剧 爱情" data-search="妙手亲一亲 中国香港 电影 2024 喜剧/爱情 互换身体, 冤家, 职业剧, 搞笑, 香港 顶流外科医生和菜鸟按摩师在一次雷击后互换了身体，不得不面对对方的“脏手”。">
+  <a class="poster-link" href="./movie-1664.html" aria-label="观看妙手亲一亲">
+    <img src="./14.jpg" alt="妙手亲一亲" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1664.html">妙手亲一亲</a>
+    <p class="movie-meta">2024 · 中国香港 · 电影</p>
+    <p class="movie-one-line">顶流外科医生和菜鸟按摩师在一次雷击后互换了身体，不得不面对对方的“脏手”。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">爱情</span>
+          <span class="chip">互换身体</span>
+          <span class="chip">冤家</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="成名大作" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="黑色幽默 娱乐圈 反转 小人物 剧情 喜剧" data-search="成名大作 中国大陆 电影 2024 剧情 / 喜剧 黑色幽默, 娱乐圈, 反转, 小人物 一个跑龙套的废柴导演意外被黑道绑架，逼他在24小时内拍出一部“成名大作”保命。">
+  <a class="poster-link" href="./movie-1666.html" aria-label="观看成名大作">
+    <img src="./16.jpg" alt="成名大作" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1666.html">成名大作</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一个跑龙套的废柴导演意外被黑道绑架，逼他在24小时内拍出一部“成名大作”保命。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">黑色幽默</span>
+          <span class="chip">娱乐圈</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="魔鬼歼击者" data-region="美国" data-type="电影" data-year="2025" data-tags="驱魔 机械义体 宗教科幻 硬核 动作 科幻 恐怖" data-search="魔鬼歼击者 美国 电影 2025 动作 / 科幻 / 恐怖 驱魔, 机械义体, 宗教科幻, 硬核 梵蒂冈秘密部队“天使长”给神父装上军用外骨骼，让他用加特林圣水枪和链锯十字架去墨西哥黑市驱魔。">
+  <a class="poster-link" href="./movie-1670.html" aria-label="观看魔鬼歼击者">
+    <img src="./20.jpg" alt="魔鬼歼击者" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1670.html">魔鬼歼击者</a>
+    <p class="movie-meta">2025 · 美国 · 电影</p>
+    <p class="movie-one-line">梵蒂冈秘密部队“天使长”给神父装上军用外骨骼，让他用加特林圣水枪和链锯十字架去墨西哥黑市驱魔。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">科幻</span>
+          <span class="chip">恐怖</span>
+          <span class="chip">驱魔</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="恐鳄大战超级食人鳄" data-region="澳大利亚" data-type="电影" data-year="2022" data-tags="怪兽 基因改造 生态环境 B级片 动作 恐怖 科幻" data-search="恐鳄大战超级食人鳄 澳大利亚 电影 2022 动作 / 恐怖 / 科幻 怪兽，基因改造，生态环境，B级片 军方秘密将史前恐鳄与转基因食人鳄杂交，制造出的超级巨鳄逃逸后杀向悉尼歌剧院，而唯一能追踪它的是一位退休的原住民猎手。">
+  <a class="poster-link" href="./movie-1683.html" aria-label="观看恐鳄大战超级食人鳄">
+    <img src="./33.jpg" alt="恐鳄大战超级食人鳄" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1683.html">恐鳄大战超级食人鳄</a>
+    <p class="movie-meta">2022 · 澳大利亚 · 电影</p>
+    <p class="movie-one-line">军方秘密将史前恐鳄与转基因食人鳄杂交，制造出的超级巨鳄逃逸后杀向悉尼歌剧院，而唯一能追踪它的是一位退休的原住民猎手。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">恐怖</span>
+          <span class="chip">科幻</span>
+          <span class="chip">怪兽</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="我唯一的拥护者" data-region="韩国" data-type="剧集" data-year="2024" data-tags="律师 自闭症 父女 辩护 家庭 剧情 法律" data-search="我唯一的拥护者 韩国 剧集 2024 家庭 / 剧情 / 法律 律师, 自闭症, 父女, 辩护 患有自闭症的天才少女成为律师，第一案是为蒙冤入狱的父亲辩护。">
+  <a class="poster-link" href="./movie-1697.html" aria-label="观看我唯一的拥护者">
+    <img src="./47.jpg" alt="我唯一的拥护者" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1697.html">我唯一的拥护者</a>
+    <p class="movie-meta">2024 · 韩国 · 剧集</p>
+    <p class="movie-one-line">患有自闭症的天才少女成为律师，第一案是为蒙冤入狱的父亲辩护。</p>
+    <div class="movie-chips">
+      <span class="chip">家庭</span>
+          <span class="chip">剧情</span>
+          <span class="chip">法律</span>
+          <span class="chip">律师</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="钟声" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="时间循环 小镇疑云 心理博弈 悬疑 犯罪" data-search="钟声 中国大陆 电影 2025 悬疑 / 犯罪 时间循环, 小镇疑云, 心理博弈 小镇每晚的钟声一响，就会有人被精准杀害，新任警察必须在下一个钟声前阻止悲剧。">
+  <a class="poster-link" href="./movie-1718.html" aria-label="观看钟声">
+    <img src="./68.jpg" alt="钟声" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1718.html">钟声</a>
+    <p class="movie-meta">2025 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">小镇每晚的钟声一响，就会有人被精准杀害，新任警察必须在下一个钟声前阻止悲剧。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">时间循环</span>
+          <span class="chip">小镇疑云</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="驱忘使者上位记（下）" data-region="中国大陆" data-type="剧集" data-year="2024" data-tags="下集 冥界 职场升迁 搞笑 催泪 奇幻 古装 职场" data-search="驱忘使者上位记（下） 中国大陆 剧集 2024 奇幻 / 古装 / 职场 下集, 冥界, 职场升迁, 搞笑, 催泪 冥界“驱忘使者”大赛进入决赛，胜者能喝到孟婆汤忘记前世之苦，但主角突然不想忘了。">
+  <a class="poster-link" href="./movie-1727.html" aria-label="观看驱忘使者上位记（下）">
+    <img src="./77.jpg" alt="驱忘使者上位记（下）" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1727.html">驱忘使者上位记（下）</a>
+    <p class="movie-meta">2024 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">冥界“驱忘使者”大赛进入决赛，胜者能喝到孟婆汤忘记前世之苦，但主角突然不想忘了。</p>
+    <div class="movie-chips">
+      <span class="chip">奇幻</span>
+          <span class="chip">古装</span>
+          <span class="chip">职场</span>
+          <span class="chip">下集</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="谍血惊魂" data-region="香港" data-type="电影" data-year="1995" data-tags="卧底 黑帮 背叛 枪战 动作 惊悚 犯罪" data-search="谍血惊魂 香港 电影 1995 动作 / 惊悚 / 犯罪 卧底, 黑帮, 背叛, 枪战 卧底警察在黑帮挣扎十年，终于完成任务，却发现警方内部有更高层的黑警在等着灭口。">
+  <a class="poster-link" href="./movie-1731.html" aria-label="观看谍血惊魂">
+    <img src="./81.jpg" alt="谍血惊魂" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1731.html">谍血惊魂</a>
+    <p class="movie-meta">1995 · 香港 · 电影</p>
+    <p class="movie-one-line">卧底警察在黑帮挣扎十年，终于完成任务，却发现警方内部有更高层的黑警在等着灭口。</p>
+    <div class="movie-chips">
+      <span class="chip">动作</span>
+          <span class="chip">惊悚</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">卧底</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="迷恋" data-region="美国" data-type="电影" data-year="2024" data-tags="畸恋 心理操控 惊悚反转 独立电影 心理惊悚 爱情" data-search="迷恋 美国 电影 2024 心理惊悚, 爱情 畸恋, 心理操控, 惊悚反转, 独立电影 一位心理医生发现她的新情人对自己病态的迷恋，竟与她失踪十年的前男友完全一致。">
+  <a class="poster-link" href="./movie-1737.html" aria-label="观看迷恋">
+    <img src="./87.jpg" alt="迷恋" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1737.html">迷恋</a>
+    <p class="movie-meta">2024 · 美国 · 电影</p>
+    <p class="movie-one-line">一位心理医生发现她的新情人对自己病态的迷恋，竟与她失踪十年的前男友完全一致。</p>
+    <div class="movie-chips">
+      <span class="chip">心理惊悚</span>
+          <span class="chip">爱情</span>
+          <span class="chip">畸恋</span>
+          <span class="chip">心理操控</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="义务与演技" data-region="韩国" data-type="电影" data-year="2025" data-tags="公务员 表演课 职场荒诞 小人物 剧情 黑色幽默 社会" data-search="义务与演技 韩国 电影 2025 剧情、黑色幽默、社会 公务员、表演课、职场荒诞、小人物 首尔区政府公务员被强制上“微笑演技课”，不料这门课竟成了权力斗争的道具。">
+  <a class="poster-link" href="./movie-1773.html" aria-label="观看义务与演技">
+    <img src="./123.jpg" alt="义务与演技" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1773.html">义务与演技</a>
+    <p class="movie-meta">2025 · 韩国 · 电影</p>
+    <p class="movie-one-line">首尔区政府公务员被强制上“微笑演技课”，不料这门课竟成了权力斗争的道具。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">黑色幽默</span>
+          <span class="chip">社会</span>
+          <span class="chip">公务员</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="林肯律师第一季" data-region="美国" data-type="剧集" data-year="2025" data-tags="律政 豪车办公 反转 道德困境 剧情 犯罪" data-search="林肯律师第一季 美国 剧集 2025 剧情 / 犯罪 律政，豪车办公，反转，道德困境 洛杉矶刑事辩护律师米奇·哈勒在林肯车后座办公，接手一桩看似简单的富二代谋杀案，却牵出警方腐败和连环杀手的惊天阴谋。">
+  <a class="poster-link" href="./movie-1781.html" aria-label="观看林肯律师第一季">
+    <img src="./131.jpg" alt="林肯律师第一季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1781.html">林肯律师第一季</a>
+    <p class="movie-meta">2025 · 美国 · 剧集</p>
+    <p class="movie-one-line">洛杉矶刑事辩护律师米奇·哈勒在林肯车后座办公，接手一桩看似简单的富二代谋杀案，却牵出警方腐败和连环杀手的惊天阴谋。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">律政</span>
+          <span class="chip">豪车办公</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="太太从军去" data-region="台湾" data-type="电影" data-year="1978" data-tags="眷村 女扮男裝 烏龍軍營 喜剧战争" data-search="太太从军去 台湾 电影 1978 喜剧战争 眷村，女扮男裝，烏龍軍營 眷村太太为了找回被征召的丈夫，女扮男装混进部队，却成了全营最猛的兵。">
+  <a class="poster-link" href="./movie-1793.html" aria-label="观看太太从军去">
+    <img src="./143.jpg" alt="太太从军去" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1793.html">太太从军去</a>
+    <p class="movie-meta">1978 · 台湾 · 电影</p>
+    <p class="movie-one-line">眷村太太为了找回被征召的丈夫，女扮男装混进部队，却成了全营最猛的兵。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧战争</span>
+          <span class="chip">眷村</span>
+          <span class="chip">女扮男裝</span>
+          <span class="chip">烏龍軍營</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="爱你不爱" data-region="中国香港" data-type="电影" data-year="2025" data-tags="车祸失忆 身份互换 婚姻骗局 双面女主 爱情 悬疑" data-search="爱你不爱 中国香港 电影 2025 爱情， 悬疑 车祸失忆， 身份互换， 婚姻骗局， 双面女主 妻子车祸失忆后认定丈夫是坏人，丈夫为自证清白拿出的婚礼录像里，新娘却全程都在对另一个男人使眼色。">
+  <a class="poster-link" href="./movie-1795.html" aria-label="观看爱你不爱">
+    <img src="./145.jpg" alt="爱你不爱" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1795.html">爱你不爱</a>
+    <p class="movie-meta">2025 · 中国香港 · 电影</p>
+    <p class="movie-one-line">妻子车祸失忆后认定丈夫是坏人，丈夫为自证清白拿出的婚礼录像里，新娘却全程都在对另一个男人使眼色。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">悬疑</span>
+          <span class="chip">车祸失忆</span>
+          <span class="chip">身份互换</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="赌档家族" data-region="中国香港" data-type="电视剧集" data-year="1999" data-tags="赌档 家族恩怨 亲情 救赎 剧情 家庭" data-search="赌档家族 中国香港 电视剧集 1999 剧情 / 家庭 赌档，家族恩怨，亲情，救赎 深水埗一个地下赌档的老板突然去世，三个孩子为了守住这个家，被迫接手了父亲的黑色产业。">
+  <a class="poster-link" href="./movie-1801.html" aria-label="观看赌档家族">
+    <img src="./1.jpg" alt="赌档家族" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1801.html">赌档家族</a>
+    <p class="movie-meta">1999 · 中国香港 · 电视剧集</p>
+    <p class="movie-one-line">深水埗一个地下赌档的老板突然去世，三个孩子为了守住这个家，被迫接手了父亲的黑色产业。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">家庭</span>
+          <span class="chip">赌档</span>
+          <span class="chip">家族恩怨</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="皇家马德里：直到终点" data-region="西班牙" data-type="电影" data-year="2023" data-tags="足球 欧冠 逆袭 幕后 热血 纪录片 运动" data-search="皇家马德里：直到终点 西班牙 电影 2023 纪录片，运动 足球，欧冠，逆袭，幕后，热血 镜头跟随皇马2022赛季欧冠之路，从淘汰边缘的绝望，到连创奇迹捧杯的史诗一夜。">
+  <a class="poster-link" href="./movie-1806.html" aria-label="观看皇家马德里：直到终点">
+    <img src="./6.jpg" alt="皇家马德里：直到终点" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1806.html">皇家马德里：直到终点</a>
+    <p class="movie-meta">2023 · 西班牙 · 电影</p>
+    <p class="movie-one-line">镜头跟随皇马2022赛季欧冠之路，从淘汰边缘的绝望，到连创奇迹捧杯的史诗一夜。</p>
+    <div class="movie-chips">
+      <span class="chip">纪录片</span>
+          <span class="chip">运动</span>
+          <span class="chip">足球</span>
+          <span class="chip">欧冠</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="蓟城风流" data-region="中国" data-type="剧集" data-year="2024" data-tags="北京 民国 文人 家国 历史 爱情" data-search="蓟城风流 中国 剧集 2024 历史，爱情 北京，民国，文人，家国 1930年代的北平，一心想做新式女性的富家千金、没落的旗人子弟和激进的学生领袖，在蓟城下展开了一场风流韵事与家国抉择。">
+  <a class="poster-link" href="./movie-1816.html" aria-label="观看蓟城风流">
+    <img src="./16.jpg" alt="蓟城风流" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1816.html">蓟城风流</a>
+    <p class="movie-meta">2024 · 中国 · 剧集</p>
+    <p class="movie-one-line">1930年代的北平，一心想做新式女性的富家千金、没落的旗人子弟和激进的学生领袖，在蓟城下展开了一场风流韵事与家国抉择。</p>
+    <div class="movie-chips">
+      <span class="chip">历史</span>
+          <span class="chip">爱情</span>
+          <span class="chip">北京</span>
+          <span class="chip">民国</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="小家伙" data-region="哈萨克斯坦 / 俄罗斯" data-type="电影" data-year="2018" data-tags="底层女性 残酷 手持摄影 长镜头 剧情" data-search="小家伙 哈萨克斯坦 / 俄罗斯 电影 2018 剧情 底层女性, 残酷, 手持摄影, 长镜头 在莫斯科打工的单身母亲，被雇主抛弃后，抱着婴儿在零下30度的街头寻找最后的希望。">
+  <a class="poster-link" href="./movie-1824.html" aria-label="观看小家伙">
+    <img src="./24.jpg" alt="小家伙" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1824.html">小家伙</a>
+    <p class="movie-meta">2018 · 哈萨克斯坦 / 俄罗斯 · 电影</p>
+    <p class="movie-one-line">在莫斯科打工的单身母亲，被雇主抛弃后，抱着婴儿在零下30度的街头寻找最后的希望。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">底层女性</span>
+          <span class="chip">残酷</span>
+          <span class="chip">手持摄影</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="爱得其所" data-region="中国大陆" data-type="电影" data-year="2027" data-tags="伦理 互换 婚姻 心理 文艺 爱情 剧情" data-search="爱得其所 中国大陆 电影 2027 爱情 / 剧情 伦理, 互换, 婚姻, 心理, 文艺 一对濒临离婚的夫妻参加了一场实验，与另一对同样不幸的夫妻“交换伴侣”生活一个月，却发现了婚姻的残酷真相。">
+  <a class="poster-link" href="./movie-1831.html" aria-label="观看爱得其所">
+    <img src="./31.jpg" alt="爱得其所" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1831.html">爱得其所</a>
+    <p class="movie-meta">2027 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一对濒临离婚的夫妻参加了一场实验，与另一对同样不幸的夫妻“交换伴侣”生活一个月，却发现了婚姻的残酷真相。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">剧情</span>
+          <span class="chip">伦理</span>
+          <span class="chip">互换</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="东海道四谷怪谈" data-region="日本" data-type="电影" data-year="2026" data-tags="怪谈 复仇 歌舞伎 诅咒 恐怖 古装" data-search="东海道四谷怪谈 日本 电影 2026 恐怖 / 古装 怪谈, 复仇, 歌舞伎, 诅咒 江户时代，一名浪人弑主夺财后，迎娶了富家女，却在新婚之夜看到了被他害死的发妻的鬼魂。">
+  <a class="poster-link" href="./movie-1839.html" aria-label="观看东海道四谷怪谈">
+    <img src="./39.jpg" alt="东海道四谷怪谈" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1839.html">东海道四谷怪谈</a>
+    <p class="movie-meta">2026 · 日本 · 电影</p>
+    <p class="movie-one-line">江户时代，一名浪人弑主夺财后，迎娶了富家女，却在新婚之夜看到了被他害死的发妻的鬼魂。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">古装</span>
+          <span class="chip">怪谈</span>
+          <span class="chip">复仇</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="鼠跑镇的问题儿童" data-region="英国" data-type="剧集" data-year="2025" data-tags="小镇奇谭 儿童冒险 黑色童话 怪诞 喜剧 家庭 奇幻" data-search="鼠跑镇的问题儿童 英国 剧集 2025 喜剧，家庭，奇幻 小镇奇谭，儿童冒险，黑色童话，怪诞 英国一个名叫“鼠跑镇”的诡异小镇上，所有孩子都是完美模范生，直到新搬来的一家“问题儿童”发现了惊天秘密。">
+  <a class="poster-link" href="./movie-1848.html" aria-label="观看鼠跑镇的问题儿童">
+    <img src="./48.jpg" alt="鼠跑镇的问题儿童" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1848.html">鼠跑镇的问题儿童</a>
+    <p class="movie-meta">2025 · 英国 · 剧集</p>
+    <p class="movie-one-line">英国一个名叫“鼠跑镇”的诡异小镇上，所有孩子都是完美模范生，直到新搬来的一家“问题儿童”发现了惊天秘密。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">家庭</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">小镇奇谭</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="折翼少年残酷记事" data-region="韩国" data-type="剧集" data-year="2026" data-tags="校园霸凌 以暴制暴 复仇者联盟 黑暗青春 剧情 校园 犯罪" data-search="折翼少年残酷记事 韩国 剧集 2026 剧情, 校园, 犯罪 校园霸凌, 以暴制暴, 复仇者联盟, 黑暗青春 五名遭受过不同霸凌的高中生联手组建“复仇小队”，用法律无法制裁的方式向施暴者逐一讨回公道。">
+  <a class="poster-link" href="./movie-1857.html" aria-label="观看折翼少年残酷记事">
+    <img src="./57.jpg" alt="折翼少年残酷记事" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1857.html">折翼少年残酷记事</a>
+    <p class="movie-meta">2026 · 韩国 · 剧集</p>
+    <p class="movie-one-line">五名遭受过不同霸凌的高中生联手组建“复仇小队”，用法律无法制裁的方式向施暴者逐一讨回公道。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">校园</span>
+          <span class="chip">犯罪</span>
+          <span class="chip">校园霸凌</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="古灵精探粤语" data-region="中国香港" data-type="剧集" data-year="2008" data-tags="通灵破案 冤家搭档 港式无厘头 尸体沟通 单元剧 悬疑 喜剧 刑侦" data-search="古灵精探粤语 中国香港 剧集 2008 悬疑 / 喜剧 / 刑侦 通灵破案，冤家搭档，港式无厘头，尸体沟通，单元剧 拥有通灵体质的女警探每次触碰尸体就能看到最后七秒死亡画面，却因过于灵异被同事当成疯婆子。">
+  <a class="poster-link" href="./movie-1868.html" aria-label="观看古灵精探粤语">
+    <img src="./68.jpg" alt="古灵精探粤语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1868.html">古灵精探粤语</a>
+    <p class="movie-meta">2008 · 中国香港 · 剧集</p>
+    <p class="movie-one-line">拥有通灵体质的女警探每次触碰尸体就能看到最后七秒死亡画面，却因过于灵异被同事当成疯婆子。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">刑侦</span>
+          <span class="chip">通灵破案</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="摩登家庭第六季" data-region="美国" data-type="电视剧" data-year="2014" data-tags="伪纪录片 合家欢 笑中带泪 群像 美剧经典 喜剧 家庭" data-search="摩登家庭第六季 美国 电视剧 2014 喜剧 / 家庭 伪纪录片, 合家欢, 笑中带泪, 群像, 美剧经典 三个家庭继续鸡飞狗跳，这次连新生儿和毕业典礼都不让人省心。">
+  <a class="poster-link" href="./movie-1876.html" aria-label="观看摩登家庭第六季">
+    <img src="./76.jpg" alt="摩登家庭第六季" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1876.html">摩登家庭第六季</a>
+    <p class="movie-meta">2014 · 美国 · 电视剧</p>
+    <p class="movie-one-line">三个家庭继续鸡飞狗跳，这次连新生儿和毕业典礼都不让人省心。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">家庭</span>
+          <span class="chip">伪纪录片</span>
+          <span class="chip">合家欢</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="西关大屋" data-region="中国大陆" data-type="剧集" data-year="2022" data-tags="广州西关 清末 满洲窗 族谱谜 悬疑 年代 家庭" data-search="西关大屋 中国大陆 剧集 2022 悬疑 / 年代 / 家庭 广州西关, 清末, 满洲窗, 族谱谜 西关一栋青砖大屋里，每到雷雨夜，满洲窗上就会映出1937年全家灭门时的剪影。">
+  <a class="poster-link" href="./movie-1883.html" aria-label="观看西关大屋">
+    <img src="./83.jpg" alt="西关大屋" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1883.html">西关大屋</a>
+    <p class="movie-meta">2022 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">西关一栋青砖大屋里，每到雷雨夜，满洲窗上就会映出1937年全家灭门时的剪影。</p>
+    <div class="movie-chips">
+      <span class="chip">悬疑</span>
+          <span class="chip">年代</span>
+          <span class="chip">家庭</span>
+          <span class="chip">广州西关</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="鬼作秀" data-region="美国" data-type="电影" data-year="1982" data-tags="分段式 漫画风格 实体特效 恐怖 喜剧" data-search="鬼作秀 美国 电影 1982 恐怖 / 喜剧 分段式, 漫画风格, 实体特效 一本恐怖漫画杂志的五个故事接连成真，每个翻开它的人都逃不掉。">
+  <a class="poster-link" href="./movie-1909.html" aria-label="观看鬼作秀">
+    <img src="./109.jpg" alt="鬼作秀" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1909.html">鬼作秀</a>
+    <p class="movie-meta">1982 · 美国 · 电影</p>
+    <p class="movie-one-line">一本恐怖漫画杂志的五个故事接连成真，每个翻开它的人都逃不掉。</p>
+    <div class="movie-chips">
+      <span class="chip">恐怖</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">分段式</span>
+          <span class="chip">漫画风格</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="无止尽的前进" data-region="美国" data-type="电视剧" data-year="2025" data-tags="无限循环 电车难题 哲学思辨 高概念 烧脑 科幻" data-search="无止尽的前进 美国 电视剧 2025 科幻 无限循环, 电车难题, 哲学思辨, 高概念, 烧脑 一列永不抵达终点的高铁上，乘客们逐渐发现自己活在被重置的一天里，而列车长是个AI哲学家。">
+  <a class="poster-link" href="./movie-1922.html" aria-label="观看无止尽的前进">
+    <img src="./122.jpg" alt="无止尽的前进" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1922.html">无止尽的前进</a>
+    <p class="movie-meta">2025 · 美国 · 电视剧</p>
+    <p class="movie-one-line">一列永不抵达终点的高铁上，乘客们逐渐发现自己活在被重置的一天里，而列车长是个AI哲学家。</p>
+    <div class="movie-chips">
+      <span class="chip">科幻</span>
+          <span class="chip">无限循环</span>
+          <span class="chip">电车难题</span>
+          <span class="chip">哲学思辨</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="一见又倾心" data-region="中国台湾" data-type="电影" data-year="2026" data-tags="失忆 重复相遇 甜虐 时间循环 爱情 奇幻 喜剧" data-search="一见又倾心 中国台湾 电影 2026 爱情, 奇幻, 喜剧 失忆, 重复相遇, 甜虐, 时间循环 女孩每四十八小时就会忘记前一天的事，而那个男孩每天都用不同方式让她重新爱上自己。">
+  <a class="poster-link" href="./movie-1925.html" aria-label="观看一见又倾心">
+    <img src="./125.jpg" alt="一见又倾心" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1925.html">一见又倾心</a>
+    <p class="movie-meta">2026 · 中国台湾 · 电影</p>
+    <p class="movie-one-line">女孩每四十八小时就会忘记前一天的事，而那个男孩每天都用不同方式让她重新爱上自己。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">奇幻</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">失忆</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="痞子逛沙漠" data-region="美国" data-type="电影" data-year="2023" data-tags="黑色幽默 绝境求生 废物联盟 喜剧 冒险 公路" data-search="痞子逛沙漠 美国 电影 2023 喜剧, 冒险, 公路 黑色幽默, 绝境求生, 废物联盟 一个街头骗子和一个社恐程序员在沙漠中相遇，必须靠对方的技能才能活着走出去。">
+  <a class="poster-link" href="./movie-1934.html" aria-label="观看痞子逛沙漠">
+    <img src="./134.jpg" alt="痞子逛沙漠" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1934.html">痞子逛沙漠</a>
+    <p class="movie-meta">2023 · 美国 · 电影</p>
+    <p class="movie-one-line">一个街头骗子和一个社恐程序员在沙漠中相遇，必须靠对方的技能才能活着走出去。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">冒险</span>
+          <span class="chip">公路</span>
+          <span class="chip">黑色幽默</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="天虹粤语" data-region="香港" data-type="电影" data-year="1989" data-tags="粤语片 旧时代 霓虹 剧情 爱情" data-search="天虹粤语 香港 电影 1989 剧情, 爱情 粤语片, 旧时代, 霓虹 霓虹灯招牌师傅和失明女歌手的爱情，在天桥下的雨夜里拼凑出最后的光。">
+  <a class="poster-link" href="./movie-1942.html" aria-label="观看天虹粤语">
+    <img src="./142.jpg" alt="天虹粤语" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1942.html">天虹粤语</a>
+    <p class="movie-meta">1989 · 香港 · 电影</p>
+    <p class="movie-one-line">霓虹灯招牌师傅和失明女歌手的爱情，在天桥下的雨夜里拼凑出最后的光。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">爱情</span>
+          <span class="chip">粤语片</span>
+          <span class="chip">旧时代</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="意大利万岁！" data-region="意大利" data-type="电影" data-year="2024" data-tags="政治讽刺 民族主义 荒诞 黑色幽默 喜剧 历史" data-search="意大利万岁！ 意大利 电影 2024 喜剧, 历史 政治讽刺, 民族主义, 荒诞, 黑色幽默 一个失败的话剧导演，竟阴差阳错地成了复兴意大利民族精神的“英雄”。">
+  <a class="poster-link" href="./movie-1943.html" aria-label="观看意大利万岁！">
+    <img src="./143.jpg" alt="意大利万岁！" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1943.html">意大利万岁！</a>
+    <p class="movie-meta">2024 · 意大利 · 电影</p>
+    <p class="movie-one-line">一个失败的话剧导演，竟阴差阳错地成了复兴意大利民族精神的“英雄”。</p>
+    <div class="movie-chips">
+      <span class="chip">喜剧</span>
+          <span class="chip">历史</span>
+          <span class="chip">政治讽刺</span>
+          <span class="chip">民族主义</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="浪里白条异样情" data-region="中国大陆" data-type="剧集" data-year="2022" data-tags="游泳 替身 娱乐圈 阴差阳错 爱情 运动 喜剧" data-search="浪里白条异样情 中国大陆 剧集 2022 爱情 / 运动 / 喜剧 游泳, 替身, 娱乐圈, 阴差阳错 一个游泳运动员被拉去给偶像剧男主当水中替身，没想到导演看中的不是他的游泳技术，而是他的腿。">
+  <a class="poster-link" href="./movie-1945.html" aria-label="观看浪里白条异样情">
+    <img src="./145.jpg" alt="浪里白条异样情" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1945.html">浪里白条异样情</a>
+    <p class="movie-meta">2022 · 中国大陆 · 剧集</p>
+    <p class="movie-one-line">一个游泳运动员被拉去给偶像剧男主当水中替身，没想到导演看中的不是他的游泳技术，而是他的腿。</p>
+    <div class="movie-chips">
+      <span class="chip">爱情</span>
+          <span class="chip">运动</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">游泳</span>
+    </div>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="取长补短" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="教育 互换人生 成长 温情 剧情 喜剧" data-search="取长补短 中国大陆 电影 2024 剧情 / 喜剧 教育, 互换人生, 成长, 温情 一个学霸与一个学渣意外互换身体，被迫用对方的短板挑战人生高考。">
+  <a class="poster-link" href="./movie-1976.html" aria-label="观看取长补短">
+    <img src="./26.jpg" alt="取长补短" loading="lazy">
+    <span class="poster-shadow"></span>
+    <span class="poster-play">▶</span>
+  </a>
+  <div class="movie-card-body">
+    <a class="movie-title" href="./movie-1976.html">取长补短</a>
+    <p class="movie-meta">2024 · 中国大陆 · 电影</p>
+    <p class="movie-one-line">一个学霸与一个学渣意外互换身体，被迫用对方的短板挑战人生高考。</p>
+    <div class="movie-chips">
+      <span class="chip">剧情</span>
+          <span class="chip">喜剧</span>
+          <span class="chip">教育</span>
+          <span class="chip">互换人生</span>
+    </div>
+  </div>
+</article>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-logo" href="./index.html">国产热门电影</a>
+      <p>国产热门电影网站提供最新最全的国产电影在线免费观看。高清画质，无广告干扰，尽享纯净观影体验。汇聚经典国产大片和最新上映电影。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./categories.html">分类</a>
+      <a href="./movies.html">片库</a>
+      <a href="./rankings.html">排行榜</a>
+    </div>
+  </div>
+</footer>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

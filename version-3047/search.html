@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>搜索-欧美高清影视</title>
+    <meta name="description" content="搜索欧美高清影视资源站内电影、剧集、类型、地区与标签，快速进入高清播放详情页。">
+    <meta name="keywords" content="欧美,视频,免费观看,最新电影,热播视频,高清播放,正版,搜索,影片搜索,剧集搜索">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="site-logo" href="./index.html" aria-label="欧美高清影视">
+            <span class="logo-icon">▶</span>
+            <span>欧美高清影视</span>
+        </a>
+        <nav class="desktop-nav">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./rankings.html">排行榜</a>
+            <a class="nav-link active" href="./search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="mobile-toggle" type="button" aria-label="打开导航" aria-expanded="false">☰</button>
+    </div>
+    <div class="mobile-panel" hidden>
+        <div class="mobile-panel-inner">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./rankings.html">排行榜</a>
+            <a class="nav-link active" href="./search.html">搜索</a>
+            <div class="mobile-categories">
+                <a href="./category-euro-movies.html">欧美电影</a>
+                <a href="./category-euro-series.html">欧美剧集</a>
+                <a href="./category-crime-mystery.html">悬疑犯罪</a>
+                <a href="./category-romance-drama.html">爱情剧情</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+<section class="page-hero slim-hero search-hero">
+    <div>
+        <span class="hero-label">站内搜索</span>
+        <h1>搜索欧美高清影视</h1>
+        <p>支持按片名、地区、年份、类型、标签快速检索，结果可直接进入详情播放页面。</p>
+    </div>
+</section>
+<section class="content-section search-section">
+    <form class="search-page-form" action="./search.html" method="get">
+        <input id="search-query" type="search" name="q" placeholder="输入片名、地区、年份、类型或标签">
+        <button class="btn primary" type="submit">搜索</button>
+    </form>
+    <div id="search-results" class="movie-grid search-results"></div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a class="site-logo footer-logo" href="./index.html">
+                <span class="logo-icon">▶</span>
+                <span>欧美高清影视</span>
+            </a>
+            <p>专注于欧美地区影视作品的播放服务，提供高清正版资源，涵盖最新电影与热门剧集，满足不同用户需求。</p>
+        </div>
+        <div class="footer-links">
+            <h2>影视分类</h2>
+            <div>
+                <a href="./category-euro-movies.html">欧美电影</a>
+                <a href="./category-euro-series.html">欧美剧集</a>
+                <a href="./category-crime-mystery.html">悬疑犯罪</a>
+                <a href="./category-romance-drama.html">爱情剧情</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-comedy-family.html">喜剧家庭</a>
+                <a href="./category-youth-campus.html">青春校园</a>
+                <a href="./category-asian-hot.html">日韩精选</a>
+                <a href="./category-cn-hot.html">华语热播</a>
+                <a href="./category-daily-picks.html">每日精选</a>
+                <a href="./category-yearly-picks.html">年度推荐</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 欧美高清影视 · 高清视频精选</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="./assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
